@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IHLP6767GZER150M11
+D Inductor IHLP SMD 6767 15uH Vishay IHLP6767GZ-11 Series Shielded Wire-wound SMD Inductor with a Metal Composite Core, 15 uH +/-20% Wire-Wound 14A Idc
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA11/2194413.pdf
+$ENDCMP
+#
+#End Doc Library

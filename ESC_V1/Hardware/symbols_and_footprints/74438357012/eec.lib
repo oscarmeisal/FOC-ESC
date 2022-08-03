@@ -1,0 +1,52 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Wurth Electronics 74438357012
+#
+DEF 74438357012 L 0 40 Y Y 1 L N
+F0 "L" 0 200 50 H V L CNN 
+F1 "74438357012" 0 300 50 H V L CNN 
+F2 "Wurth_Electronics-74438357012-*" 0 400 50 H I L CNN 
+F3 "https://www.we-online.de/katalog/datasheet/74438357012.pdf" 0 500 50 H I L CNN 
+F4 "7A" 0 600 50 H I L CNN "RMS current"
+F5 "+125°C" 0 700 50 H I L CNN "ambient temperature range high"
+F6 "-40°C" 0 800 50 H I L CNN "ambient temperature range low"
+F7 "No" 0 900 50 H I L CNN "automotive"
+F8 "Ind" 0 1000 50 H I L CNN "category"
+F9 "Molded" 0 1100 50 H I L CNN "composition"
+F10 "Metal Composite" 0 1200 50 H I L CNN "core material"
+F11 "Passive Components" 0 1300 50 H I L CNN "device class L1"
+F12 "Inductors" 0 1400 50 H I L CNN "device class L2"
+F13 "Fixed Inductors" 0 1500 50 H I L CNN "device class L3"
+F14 "FIXED IND 1.2UH 7A 15.5 MOHM SMD" 0 1600 50 H I L CNN "digikey description"
+F15 "732-11198-1-ND" 0 1700 50 H I L CNN "digikey part number"
+F16 "3.1mm" 0 1800 50 H I L CNN "height"
+F17 "1.2uH" 0 1900 50 H I L CNN "inductance"
+F18 "Yes" 0 2000 50 H I L CNN "lead free"
+F19 "2b13399761d1a3c8" 0 2100 50 H I L CNN "library id"
+F20 "Wurth Electronics" 0 2200 50 H I L CNN "manufacturer"
+F21 "710-74438357012" 0 2300 50 H I L CNN "mouser part number"
+F22 "SMD2" 0 2400 50 H I L CNN "package"
+F23 "Yes" 0 2500 50 H I L CNN "rohs"
+F24 "8.8A" 0 2600 50 H I L CNN "saturation current"
+F25 "51MHz" 0 2700 50 H I L CNN "self resonant frequency"
+F26 "13.4mΩ" 0 2800 50 H I L CNN "series resistance"
+F27 "true" 0 2900 50 H I L CNN "shielding"
+F28 "+125°C" 0 3000 50 H I L CNN "temperature range high"
+F29 "-40°C" 0 3100 50 H I L CNN "temperature range low"
+F30 "100kHz" 0 3200 50 H I L CNN "test frequency"
+F31 "20%" 0 3300 50 H I L CNN "tolerance"
+DRAW
+X 1 1 0 0 50 R 40 0 1 1 P 
+X 2 2 400 0 50 L 40 0 1 1 P 
+A 100 0 50 0 1799 1 1 0 N 150 0 50 0
+A 200 0 50 0 1799 1 1 0 N 250 0 150 0
+A 300 0 50 0 1799 1 1 0 N 350 0 250 0
+P 2 1 1 0 40 100 140 100 N
+P 2 1 1 0 240 100 340 100 N
+C 100 0 10 1 1 0 N
+C 100 0 0 1 1 0 N
+ENDDRAW
+ENDDEF
+#
+# End Library
