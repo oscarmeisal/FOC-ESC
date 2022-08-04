@@ -1,39 +1,4 @@
-20365367384831148
-16SVPG47M
-CAP_16SVPG47M
-
-
-0
-2
-2
-796740-3
-TE_796740-3
-
-
-0
-3
-3
-1714955
-1714955
-1714955-7
-Connector
-0
-2
-2
-10118193-0001LF
-FCI_10118193-0001LF
-
-
-0
-11
-11
-74438357012
-Wurth_Electronics-74438357012-MFG
-
-
-0
-2
-2
+20384942530546853
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -48,13 +13,6 @@ audio belton reverb
 0
 7
 7
-B560C-13-F
-B560C-13-F
-
-
-0
-2
-2
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -52156,20 +52114,6 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-ECS-120-10-33B-CKM-TR
-XTAL_ECS-120-10-33B-CKM-TR
-
-
-0
-4
-4
-FSM2JMTR
-1478731
-147873-1
-Switch
-0
-2
-2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -53150,20 +53094,6 @@ heatsink
 0
 2
 1
-IHLP6767GZER150M11
-INDPM172172X700N
-HVC0603T1005FET
-Inductor
-0
-2
-2
-IRFH7084PbF
-IRFH7084TRPBF
-
-
-0
-8
-8
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -56650,13 +56580,6 @@ solder jumper open
 0
 5
 3
-LB1608T100M
-LB1608T100M
-
-
-0
-2
-2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -57742,13 +57665,6 @@ Yellow 5381 Series LED
 0
 2
 2
-MAX40056UAUA
-MAX40056UAUA&slash_V&plus_
-
-
-0
-8
-8
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -62692,8 +62608,8 @@ LFCSP-WD NoLead
 24
 11
 Package_CSP
-Maxim_WLCSP-32_3.0x2.17mm_Layout7x5_P0.4mm_Ball0.27mm_Pad0.25mm
-WLCSP-32, 2.168x2.998mm, 35 Ball, 7x5 Layout, 0.4mm Pitch, https://pdfserv.maximintegrated.com/package_dwgs/21-100489.PDF
+Maxim_WLCSP-35_3.0x2.17mm_Layout7x5_P0.4mm_Ball0.27mm_Pad0.25mm
+WLCSP-35, 2.168x2.998mm, 35 Ball, 7x5 Layout, 0.4mm Pitch, https://pdfserv.maximintegrated.com/package_dwgs/21-100489.PDF
 CSP 35 0.4
 0
 35
@@ -71561,6 +71477,13 @@ SSOP 0.65 exposed pad
 18
 15
 Package_SO
+TSSOP-14_4.4x3.6mm_P0.4mm
+TSSOP, 14 Pin (JEDEC MO-194 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-194), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO
+0
+14
+14
+Package_SO
 TSSOP-14_4.4x5mm_P0.65mm
 TSSOP, 14 Pin (JEDEC MO-153 Var AB-1 https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
 TSSOP SO
@@ -71589,12 +71512,26 @@ TSSOP SO
 26
 17
 Package_SO
+TSSOP-16_4.4x3.6mm_P0.4mm
+TSSOP, 16 Pin (JEDEC MO-194 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-194), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO
+0
+16
+16
+Package_SO
 TSSOP-16_4.4x5mm_P0.65mm
 TSSOP, 16 Pin (JEDEC MO-153 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
 TSSOP SO
 0
 16
 16
+Package_SO
+TSSOP-20_4.4x5mm_P0.4mm
+TSSOP, 20 Pin (JEDEC MO-194 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-194), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO
+0
+20
+20
 Package_SO
 TSSOP-20_4.4x5mm_P0.5mm
 TSSOP, 20 Pin (JEDEC MO-153 Var BA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -71897,6 +71834,13 @@ TSSOP SO
 52
 52
 Package_SO
+TSSOP-56_4.4x11.3mm_P0.4mm
+TSSOP, 56 Pin (JEDEC MO-194 Var AF https://www.jedec.org/document_search?search_api_views_fulltext=MO-194), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO
+0
+56
+56
+Package_SO
 TSSOP-56_6.1x12.5mm_P0.4mm
 TSSOP, 56 Pin (JEDEC MO-153 Var FD https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
 TSSOP SO
@@ -71966,6 +71910,13 @@ TSSOP SO
 0
 80
 80
+Package_SO
+TSSOP-100_6.1x20.8mm_P0.4mm
+TSSOP, 100 Pin (JEDEC MO-194 Var BB https://www.jedec.org/document_search?search_api_views_fulltext=MO-194), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO
+0
+100
+100
 Package_SO
 Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm
 Texas Instruments HSOP 9, 1.27mm pitch, 3.9x4.9mm body, exposed pad, DDA0008J (http://www.ti.com/lit/ds/symlink/tps5430.pdf)
@@ -78973,13 +78924,6 @@ rotary encoder
 0
 5
 4
-SS2P4-M3_84A
-SS2P4M384A
-SS2P4-M3/84A-3
-Schottky Diode
-0
-2
-2
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -79029,6 +78973,13 @@ co2 gas sensor pwm modbus
 0
 9
 9
+Sensor
+Sensirion_SCD4x-1EP_10.1x10.1mm_P1.25mm_EP4.8x4.8mm
+Sensirion SCD4x QFN, 20 Pin (https://sensirion.com/media/documents/C4B87CE6/627C2DCD/CD_DS_SCD40_SCD41_Datasheet_D1.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+Sensirion QFN NoLead
+0
+25
+21
 Sensor
 Winson_GM-402B_5x5mm_P1.27mm
 Winson GM-402B, 8 Pin (https://www.winsen-sensor.com/d/files/me2/mems--gm-402b--manual-v1_1.pdf)
@@ -80499,27 +80450,6 @@ Logo WEEE
 0
 0
 0
-T510E107M025ATE050
-T510E107M025AT E050
-
-
-0
-2
-2
-TPS5450
-TPS5450DDAR
-
-
-0
-9
-9
-TPS54560B-Q1
-TPS54560BQDDAQ1
-
-
-0
-9
-9
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -84756,6 +84686,13 @@ Ethernet Transformer
 16
 16
 Transformer_SMD
+Transformer_Ethernet_YDS_30F-51NL_SO-24_7.1x15.1mm
+YDS 30F-51NL SO, 24 Pin (https://datasheet.lcsc.com/lcsc/1811051610_Shanghai-YDS-Tech-30F-51NL_C123168.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+YDS SO Transformer_SMD
+0
+24
+24
+Transformer_SMD
 Transformer_MACOM_SM-22
 https://cdn.macom.com/datasheets/ETC1-1-13.pdf
 RF Transformer
@@ -85315,13 +85252,6 @@ igbt diode module
 0
 25
 25
-UCC27282DR
-SOIC127P599X175-8N
-
-
-0
-8
-8
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -86089,20 +86019,6 @@ Varistor
 RV_Disc_D21.5mm_W11.4mm_P10mm
 Varistor, diameter 21.5mm, width 11.4mm, pitch 10mm
 varistor SIOV
-0
-2
-2
-WSHP28182L000FEA
-WSHM28185L000FEA
-
-
-0
-2
-2
-molex_mega_fit_01x02
-2002411222
-
-
 0
 2
 2

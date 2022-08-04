@@ -275,6 +275,7 @@
     )
   )
 
+
   (junction (at 184.15 109.22) (diameter 0) (color 0 0 0 0)
     (uuid 3c74e532-3bc1-423f-b0c8-a07a01c2853c)
   )
@@ -445,6 +446,19 @@
   (wire (pts (xy 88.9 97.79) (xy 88.9 101.6))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid efd4d721-db67-4648-8c19-850f7c04a577)
+  )
+
+  (label "GD_LO" (at 157.48 109.22 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 29cffa51-606c-4617-8ee7-df50ff2f3b04)
+  )
+  (label "GD_HS" (at 157.48 88.9 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 50d67b4a-c434-4257-86d8-f8e3263b211e)
+  )
+  (label "GD_HB" (at 157.48 92.71 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ae4bc09a-8c71-4426-956e-e2d4888a9d20)
   )
 
   (hierarchical_label "LO" (shape passive) (at 215.9 109.22 0)

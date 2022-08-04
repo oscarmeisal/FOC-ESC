@@ -189,6 +189,7 @@
     )
   )
 
+
   (junction (at 152.4 78.74) (diameter 0) (color 0 0 0 0)
     (uuid 09a5f163-7ba1-4b48-88e6-bef2f3b8303a)
   )
@@ -745,7 +746,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0706818e-e54a-4274-9255-a059733de5de)
   )
-  (hierarchical_label "VCC" (shape passive) (at 76.2 63.5 180)
+  (hierarchical_label "+BATT" (shape passive) (at 76.2 63.5 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0942cb82-644e-4080-9519-cd14a8ce0e00)
   )
