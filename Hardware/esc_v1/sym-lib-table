@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "tvs_diode")(type "KiCad")(uri "${KIPRJMOD}/tvs_diode.kicad_sym")(options "")(descr ""))
+  (lib (name "IRFH7084TRPBF")(type "Legacy")(uri "C:/Users/oscar/Documents/Git/FOC-ESC/ESC_V1/Hardware/symbols_and_footprints/IRFH7084PbF/eec.lib")(options "")(descr ""))
+)

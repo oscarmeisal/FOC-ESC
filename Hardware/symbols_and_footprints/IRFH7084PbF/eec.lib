@@ -1,0 +1,79 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Infineon IRFH7084TRPBF
+#
+DEF IRFH7084TRPBF Q 0 40 Y Y 1 L N
+F0 "Q" 0 300 50 H V L CNN 
+F1 "IRFH7084TRPBF" 0 400 50 H V L CNN 
+F2 "Infineon-PQFN5x6-G-02_2017-22-*" 0 500 50 H I L CNN 
+F3 "https://www.infineon.com/dgdl/Infineon-IRFH7084-DataSheet-v02_01-EN.pdf?fileId=5546d462533600a40153561eac461ed4" 0 600 50 H I L CNN 
+F4 "No" 0 700 50 H I L CNN "automotive"
+F5 "Trans" 0 800 50 H I L CNN "category"
+F6 "40A" 0 900 50 H I L CNN "continuous drain current"
+F7 "False" 0 1000 50 H I L CNN "depletion mode"
+F8 "Discrete Semiconductors" 0 1100 50 H I L CNN "device class L1"
+F9 "Transistors" 0 1200 50 H I L CNN "device class L2"
+F10 "MOSFETs" 0 1300 50 H I L CNN "device class L3"
+F11 "MOSFET N-CH 40V 100A 8QFN" 0 1400 50 H I L CNN "digikey description"
+F12 "IRFH7084TRPBFCT-ND" 0 1500 50 H I L CNN "digikey part number"
+F13 "40V" 0 1600 50 H I L CNN "drain to source breakdown voltage"
+F14 "0.95mΩ" 0 1700 50 H I L CNN "drain to source resistance"
+F15 "https://www.infineon.com/dgdl/an-1136.pdf?fileId=5546d462533600a401535599f0ef10c7" 0 1800 50 H I L CNN "footprint url"
+F16 "127nC @ 10V" 0 1900 50 H I L CNN "gate charge at vgs"
+F17 "20V" 0 2000 50 H I L CNN "gate to source voltage"
+F18 "1.1mm" 0 2100 50 H I L CNN "height"
+F19 "6560pF @ 25V" 0 2200 50 H I L CNN "input capacitace at vds"
+F20 "Yes" 0 2300 50 H I L CNN "lead free"
+F21 "8f1d5186d1ffa25a" 0 2400 50 H I L CNN "library id"
+F22 "Infineon" 0 2500 50 H I L CNN "manufacturer"
+F23 "1.3V" 0 2600 50 H I L CNN "max forward diode voltage"
+F24 "+150°C" 0 2700 50 H I L CNN "max junction temp"
+F25 "942-IRFH7084TRPBF" 0 2800 50 H I L CNN "mouser part number"
+F26 "1" 0 2900 50 H I L CNN "number of N channels"
+F27 "1" 0 3000 50 H I L CNN "number of channels"
+F28 "PQFN8" 0 3100 50 H I L CNN "package"
+F29 "1060A" 0 3200 50 H I L CNN "pulse drain current"
+F30 "38nC" 0 3300 50 H I L CNN "reverse recovery charge"
+F31 "36ns" 0 3400 50 H I L CNN "reverse recovery time"
+F32 "Yes" 0 3500 50 H I L CNN "rohs"
+F33 "35°C/W" 0 3600 50 H I L CNN "rthja max"
+F34 "0mm" 0 3700 50 H I L CNN "standoff height"
+F35 "+150°C" 0 3800 50 H I L CNN "temperature range high"
+F36 "-55°C" 0 3900 50 H I L CNN "temperature range low"
+F37 "3.9V" 0 4000 50 H I L CNN "threshold vgs max"
+F38 "2.2V" 0 4100 50 H I L CNN "threshold vgs min"
+F39 "64ns" 0 4200 50 H I L CNN "turn off delay time"
+F40 "16ns" 0 4300 50 H I L CNN "turn on delay time"
+DRAW
+X G 4 100 0 140 R 40 0 1 1 P 
+X S 1 400 -300 300 U 40 0 1 1 P 
+X D 5-6-7-8 400 200 120 D 40 0 1 1 P 
+X S 2 500 -300 100 U 40 0 1 1 P 
+X S 3 600 -300 100 U 40 0 1 1 P 
+P 2 1 1 0 240 -100 240 100 N
+P 2 1 1 0 270 60 270 100 N
+P 2 1 1 0 270 -80 400 -80 N
+P 2 1 1 0 270 80 400 80 N
+P 2 1 1 0 300 0 400 0 N
+P 2 1 1 0 290 0 340 30 N
+P 2 1 1 0 290 0 340 -30 N
+P 2 1 1 0 340 30 340 -30 N
+P 2 1 1 0 330 10 330 -20 N
+P 2 1 1 0 270 -60 270 -100 N
+P 2 1 1 0 270 20 270 -20 N
+P 2 1 1 0 400 -80 470 -80 N
+P 2 1 1 0 470 -80 470 80 N
+P 2 1 1 0 470 80 400 80 N
+C 400 80 10 1 1 0 N
+C 400 -80 10 1 1 0 N
+P 2 1 1 0 470 20 450 -20 N
+P 2 1 1 0 450 -20 490 -20 N
+P 2 1 1 0 490 -20 470 20 N
+P 2 1 1 0 470 20 490 20 N
+P 2 1 1 0 470 20 450 20 N
+P 2 1 1 0 400 -200 600 -200 N
+ENDDRAW
+ENDDEF
+#
+# End Library

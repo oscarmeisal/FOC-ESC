@@ -3541,23 +3541,23 @@
     (path "/d5927b45-4bd6-4aa1-82fe-893aae000d0e/667fb65e-e7cc-44be-966d-e37fc95476e1"
       (reference "L2") (unit 1) (value "10uH - 60mA") (footprint "Inductor_SMD:L_0201_0603Metric")
     )
-    (path "/691d8587-6f69-4038-a59b-9d26928d9a32/1bf60df6-947a-41ce-b885-a4a1b891d028/66406d83-f892-4d7d-9565-ac18a102d3c4"
-      (reference "Q1") (unit 1) (value "IRFH7084TRPBF") (footprint "IRFH7084PbF:IRFH7084TRPBF")
+    (path "/691d8587-6f69-4038-a59b-9d26928d9a32/1bf60df6-947a-41ce-b885-a4a1b891d028/2589409c-f735-4863-a734-fba5815c35b8"
+      (reference "Q1") (unit 1) (value "IRFH7084TRPBF") (footprint "IRFH7084PbF:Infineon-PQFN5x6-G-02_2017-22-MFG")
     )
-    (path "/691d8587-6f69-4038-a59b-9d26928d9a32/1bf60df6-947a-41ce-b885-a4a1b891d028/78f5b173-c3d9-4ef5-b09c-2ea4d5f7e3bf"
-      (reference "Q2") (unit 1) (value "IRFH7084TRPBF") (footprint "IRFH7084PbF:IRFH7084TRPBF")
+    (path "/691d8587-6f69-4038-a59b-9d26928d9a32/1bf60df6-947a-41ce-b885-a4a1b891d028/457652b8-6a96-4695-948b-aa41e6ff6373"
+      (reference "Q2") (unit 1) (value "IRFH7084TRPBF") (footprint "IRFH7084PbF:Infineon-PQFN5x6-G-02_2017-22-MFG")
     )
-    (path "/691d8587-6f69-4038-a59b-9d26928d9a32/1bf60df6-947a-41ce-b885-a4a1b891d028/57f55d6e-829d-4a3f-b603-47654abd6f88"
-      (reference "Q3") (unit 1) (value "IRFH7084TRPBF") (footprint "IRFH7084PbF:IRFH7084TRPBF")
+    (path "/691d8587-6f69-4038-a59b-9d26928d9a32/1bf60df6-947a-41ce-b885-a4a1b891d028/2f80d6f4-a765-4a02-b9fd-987e383479c9"
+      (reference "Q3") (unit 1) (value "IRFH7084TRPBF") (footprint "IRFH7084PbF:Infineon-PQFN5x6-G-02_2017-22-MFG")
     )
-    (path "/691d8587-6f69-4038-a59b-9d26928d9a32/1bf60df6-947a-41ce-b885-a4a1b891d028/c63768ee-9031-4351-b38a-573efa970ca7"
-      (reference "Q4") (unit 1) (value "IRFH7084TRPBF") (footprint "IRFH7084PbF:IRFH7084TRPBF")
+    (path "/691d8587-6f69-4038-a59b-9d26928d9a32/1bf60df6-947a-41ce-b885-a4a1b891d028/c49a9879-78ff-48c8-9930-3e18e232392b"
+      (reference "Q4") (unit 1) (value "IRFH7084TRPBF") (footprint "IRFH7084PbF:Infineon-PQFN5x6-G-02_2017-22-MFG")
     )
-    (path "/691d8587-6f69-4038-a59b-9d26928d9a32/1bf60df6-947a-41ce-b885-a4a1b891d028/e161d6a7-7924-46d5-9a8a-051fea2af5f2"
-      (reference "Q5") (unit 1) (value "IRFH7084TRPBF") (footprint "IRFH7084PbF:IRFH7084TRPBF")
+    (path "/691d8587-6f69-4038-a59b-9d26928d9a32/1bf60df6-947a-41ce-b885-a4a1b891d028/af0e5653-847a-437d-b0bb-100d5ea56fe1"
+      (reference "Q5") (unit 1) (value "IRFH7084TRPBF") (footprint "IRFH7084PbF:Infineon-PQFN5x6-G-02_2017-22-MFG")
     )
-    (path "/691d8587-6f69-4038-a59b-9d26928d9a32/1bf60df6-947a-41ce-b885-a4a1b891d028/a43d78cd-77b0-4015-8dff-f30a18a12b5d"
-      (reference "Q6") (unit 1) (value "IRFH7084TRPBF") (footprint "IRFH7084PbF:IRFH7084TRPBF")
+    (path "/691d8587-6f69-4038-a59b-9d26928d9a32/1bf60df6-947a-41ce-b885-a4a1b891d028/197f91d6-4ec0-4144-9c2e-48271dc62aea"
+      (reference "Q6") (unit 1) (value "IRFH7084TRPBF") (footprint "IRFH7084PbF:Infineon-PQFN5x6-G-02_2017-22-MFG")
     )
     (path "/d8ee1070-8c79-41b9-9870-e8e39d2d171f"
       (reference "R1") (unit 1) (value "330R") (footprint "Resistor_SMD:R_0603_1608Metric")

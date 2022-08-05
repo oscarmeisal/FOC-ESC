@@ -1,6 +1,5 @@
 (fp_lib_table
   (lib (name "TPS54560B-Q1")(type "KiCad")(uri "C:/Users/oscar/Documents/ESC_v1/symbols_and_footprints/TPS54560B-Q1/footprints.pretty")(options "")(descr ""))
-  (lib (name "IRFH7084PbF")(type "KiCad")(uri "C:/Users/oscar/Documents/ESC_v1/symbols_and_footprints/IRFH7084PbF/footprints.pretty")(options "")(descr ""))
   (lib (name "UCC27282DR")(type "KiCad")(uri "C:/Users/oscar/Documents/ESC_v1/symbols_and_footprints/UCC27282DR")(options "")(descr ""))
   (lib (name "MAX40056UAUA")(type "KiCad")(uri "C:/Users/oscar/Documents/ESC_v1/symbols_and_footprints/MAX40056UAUA/footprints.pretty")(options "")(descr ""))
   (lib (name "B560C-13-F")(type "KiCad")(uri "C:/Users/oscar/Documents/ESC_v1/symbols_and_footprints/B560C-13-F/footprints.pretty")(options "")(descr "5A diode for buck regulator"))
@@ -18,4 +17,5 @@
   (lib (name "TPS5450")(type "KiCad")(uri "C:/Users/oscar/Documents/ESC_v1/symbols_and_footprints/TPS5450/footprints.pretty")(options "")(descr "TPS5450 buck converter"))
   (lib (name "IHLP6767GZER150M11")(type "KiCad")(uri "C:/Users/oscar/Documents/ESC_v1/symbols_and_footprints/IHLP6767GZER150M11")(options "")(descr "Inductor for buck"))
   (lib (name "T510E107M025ATE050")(type "KiCad")(uri "C:/Users/oscar/Documents/ESC_v1/symbols_and_footprints/T510E107M025ATE050/footprints.pretty")(options "")(descr "Low ESR tantalum"))
+  (lib (name "IRFH7084PbF")(type "KiCad")(uri "C:/Users/oscar/Documents/Git/FOC-ESC/ESC_V1/Hardware/symbols_and_footprints/IRFH7084PbF/eec.pretty")(options "")(descr ""))
 )
