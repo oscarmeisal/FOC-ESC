@@ -6,7 +6,7 @@
 
   (title_block
     (title "Current measurement")
-    (date "2022-07-25")
+    (date "2022-08-13")
     (rev "1")
   )
 
@@ -265,7 +265,6 @@
     )
   )
 
-
   (junction (at 99.06 80.01) (diameter 0) (color 0 0 0 0)
     (uuid 0e9f6b7f-82f7-4ce3-ae40-2c58a5899843)
   )
@@ -478,6 +477,11 @@
     (at 76.2 46.99 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid e9536bc0-4fd1-41e5-9fa1-0126eda240b3)
+  )
+
+  (label "Ref" (at 168.91 91.44 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e2953dac-ac36-4556-9520-65d9ee28019f)
   )
 
   (hierarchical_label "Phase_pos" (shape passive) (at 82.55 114.3 180)

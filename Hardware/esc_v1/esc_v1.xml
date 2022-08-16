@@ -1,0 +1,3460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\oscar\Documents\FOC-ESC\Hardware\esc_v1\esc_v1.kicad_sch</source>
+    <date>12/08/2022 22:44:26</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ESC - Main overview</title>
+        <company/>
+        <rev>1</rev>
+        <date>2022-07-21</date>
+        <source>esc_v1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/">
+      <title_block>
+        <title>Power</title>
+        <company/>
+        <rev>1</rev>
+        <date>2022-07-21</date>
+        <source>Power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/">
+      <title_block>
+        <title>MCU</title>
+        <company/>
+        <rev>1</rev>
+        <date>2022-07-21</date>
+        <source>MCU.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Powerstage/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/">
+      <title_block>
+        <title>Powerstage</title>
+        <company/>
+        <rev>1</rev>
+        <date>2022-07-21</date>
+        <source>Powerstage.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/UART_USB_BRIDGE/" tstamps="/4e6f324f-d1b3-480b-a774-6d9a232f197a/">
+      <title_block>
+        <title>UART to USB bridge</title>
+        <company/>
+        <rev>1</rev>
+        <date>2022-07-21</date>
+        <source>UART_USB_BRIDGE.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Powerstage/Gate_driver_V/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/7597926c-4ed3-4569-8fcd-0d57bc71b245/">
+      <title_block>
+        <title>Gate driver</title>
+        <company/>
+        <rev>1</rev>
+        <date>2022-08-12</date>
+        <source>Gate_driver.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Powerstage/Gate_driver_W/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/ca152e4f-7854-4f7e-98d3-a321d88ea700/">
+      <title_block>
+        <title>Gate driver</title>
+        <company/>
+        <rev>1</rev>
+        <date>2022-08-12</date>
+        <source>Gate_driver.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/Powerstage/three_phase_full_bridge/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/1bf60df6-947a-41ce-b885-a4a1b891d028/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>three_phase_full_bridge.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/Powerstage/measurements_phase_U/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/e96e4823-284d-4471-ba86-c27947f80d29/">
+      <title_block>
+        <title>Current measurement</title>
+        <company/>
+        <rev>1</rev>
+        <date>2022-07-25</date>
+        <source>measurements_phase_U.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/Powerstage/measurements_phase_V/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/13335f2e-16f6-49cc-8ca5-afedd08bb16e/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>measurements_phase_V.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="11" name="/Powerstage/Gate_driver_U/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/bd345657-61fa-4a58-8f95-2e7013608ac4/">
+      <title_block>
+        <title>Gate driver</title>
+        <company/>
+        <rev>1</rev>
+        <date>2022-08-12</date>
+        <source>Gate_driver.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b987de19-cd5b-4b6a-ab5e-8f82eb9eb392</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a17d8b37-efba-479a-851d-ba02747924b9</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>PESD3V3L5UY</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf</datasheet>
+      <fields>
+        <field name="Part no. ">PESD3V3L5UY,115</field>
+      </fields>
+      <libsource lib="Power_Protection" part="PESD3V3L5UY" description="Low capacitance unidirectional fivefold ESD protection diode array, 3.3V, Common Anode, SOT-363"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8fdf0c4-7391-439c-8761-780785b04da3 b6450b61-75dd-48e6-bb9f-63d0b6263a7f 628b9143-853b-4cde-a829-e6360a76d80b 9018e26d-3e99-45c4-a6e0-5f0529fe7034 3f2be42a-4f23-433f-932a-348c3dbf19ba</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>TVS, 50V</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <libsource lib="tvs_diode" part="TVS_diode" description="Generic TVS diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e29637e7-6fc9-4f2f-b925-9ba47e0eeab2</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3933bf23-165b-466a-9583-b173ceb80020</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED red</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aba515cf-7288-4842-8a33-219dcbf4f461</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>TVS, 50V</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <libsource lib="tvs_diode" part="TVS_diode" description="Generic TVS diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0b502fd-645e-4e32-9798-b23a8a19b168</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>TVS, 50V</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <libsource lib="tvs_diode" part="TVS_diode" description="Generic TVS diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bea8a34-3044-490d-851f-1d857e625c71</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>TVS, 50V</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <libsource lib="tvs_diode" part="TVS_diode" description="Generic TVS diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ecd2e86-533a-4558-9690-78f17b6e02be</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>SP0503BAHT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-143</footprint>
+      <datasheet>http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf</datasheet>
+      <libsource lib="Power_Protection" part="SP0503BAHT" description="TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5146bbb-86f8-4c0b-a993-0182e5796477</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>40A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <datasheet>https://belfuse.com/resources/datasheets/circuitprotection/ds-CP-0685P-series.pdf</datasheet>
+      <fields>
+        <field name="Part no ">0685P9400-01</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Part no " value="0685P9400-01"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9bc353e-1ba4-4662-a0d7-43d52b77c5e7</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cf9b75b-b57b-49a3-a2eb-52b2ac667585</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73185128-e865-44bb-8919-22031c458d59</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>462b0462-4db9-4a41-8c89-31ae578441d7</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ddafde8-b777-459c-af06-fcd652b9ad00</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>vcc_connector</value>
+      <footprint>1714955:1714955</footprint>
+      <fields>
+        <field name="Part no">1714955</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Part no" value="1714955"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ab4a43f-eded-4d93-9efa-4c94b5cb44ef</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>SWD_tag_connect</value>
+      <footprint>Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18aae188-4f30-4b92-b0d1-0774b9fdea1a</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>motor_connector</value>
+      <footprint>796740-3:TE_796740-3</footprint>
+      <fields>
+        <field name="Part no">796740-3</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Part no" value="796740-3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0c078a2-36d7-46bd-9efa-a1b8afe926b4</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>10118193-0001LF</value>
+      <footprint>10118193-0001LF:FCI_10118193-0001LF</footprint>
+      <fields>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="DESCRIPTION">Single Port 5 Contact Shielded SMT MICRO USB B-Type Receptacle</field>
+        <field name="MF">Amphenol FCI</field>
+        <field name="MP">10118193-0001LF</field>
+        <field name="PACKAGE">None</field>
+        <field name="PRICE">None</field>
+      </fields>
+      <libsource lib="10118193-0001LF" part="10118193-0001LF" description=""/>
+      <property name="DESCRIPTION" value="Single Port 5 Contact Shielded SMT MICRO USB B-Type Receptacle"/>
+      <property name="MF" value="Amphenol FCI"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="PACKAGE" value="None"/>
+      <property name="MP" value="10118193-0001LF"/>
+      <property name="PRICE" value="None"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54d24a23-1794-45de-a650-3fd7b8cdc1ff</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8ee1070-8c79-41b9-9870-e8e39d2d171f</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a62cf7b-489e-4b99-9029-587e51ee95c7</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3288b75-f9d4-4c25-8756-7a8e23184c14</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esc_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d71394fd-3752-43cf-bfc2-856271f31c35</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_Elec_8x10.2</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C177.pdf</datasheet>
+      <fields>
+        <field name="PartNo">25SVPF100M</field>
+        <field name="Producer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="PartNo" value="25SVPF100M"/>
+      <property name="Producer" value="Panasonic Electronic Components"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>af0abc35-4b3d-41df-a4c4-a142c22cea4c</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>2c1a41e6-a2e9-4587-85b7-3b09c012fbf3</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>470pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>d29d0e4a-9998-482d-a1f0-7239f61789d8</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100uF</value>
+      <footprint>T510E107M025ATE050:T510E107M025AT E050</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_T2014_T510.pdf</datasheet>
+      <fields>
+        <field name="PartNo">T510E107M025ATE050</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="PartNo" value="T510E107M025ATE050"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>388813c7-2c64-41bb-8fae-6ec2f2a5c5c8</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>470uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x12.6</footprint>
+      <datasheet>https://www.nichicon.co.jp/english/products/pdfs/e-pcr.pdf</datasheet>
+      <fields>
+        <field name="PartNo">PCR1E471MCL1GS</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="PartNo" value="PCR1E471MCL1GS"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>612b8797-1827-41f4-91ea-422353d92708</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>c3192dfb-2e00-438b-b488-eb57e8935cf5</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>390uF, 20mOhm</value>
+      <footprint>Capacitor_SMD:C_Elec_8x10.2</footprint>
+      <datasheet>https://www.chemi-con.co.jp/products/relatedfiles/capacitor/catalog/PXGRA-e.PDF</datasheet>
+      <fields>
+        <field name="PartNo">APXG200ARA391MHA0G</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="PartNo" value="APXG200ARA391MHA0G"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>715b9fc2-f408-4cd6-9f4d-bf79c9132ee0</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>6620aa0e-1a4e-4d2c-abec-1c94dd32c194</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.comchiptech.com/admin/files/product/CDBW120-G%20Thru.%20CDBW140-G%20RevE.pdf</datasheet>
+      <fields>
+        <field name="Part no">CDBW140-G</field>
+        <field name="Producer">Comchip Technology</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Part no" value="CDBW140-G"/>
+      <property name="Producer" value="Comchip Technology"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>7824bd64-f9e8-4dfe-a232-9f53f05114e9</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>AZ34063UMTR-G1</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/AZ34063UMTR-G1.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">AZ34063UMTR-G1</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/az34063umtr-g1/diodes-incorporated?region=nac</field>
+        <field name="Description">1.5A Step-Down/Up DC-DC Converter SOIC8 DiodesZetex AZ34063UMTR-G1 DC-DC Converter, 1.5A Adjustable, 1.25  36 V, Step-Down/Up, 180 kHz, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">AZ34063UMTR-G1</field>
+        <field name="Mouser Part Number">621-AZ34063UMTR-G1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ34063UMTR-G1?qs=FKu9oBikfSmOGMlC%2Fa3O3g%3D%3D</field>
+      </fields>
+      <libsource lib="AZ34063UMTR-G1" part="AZ34063UMTR-G1" description="1.5A Step-Down/Up DC-DC Converter SOIC8 DiodesZetex AZ34063UMTR-G1 DC-DC Converter, 1.5A Adjustable, 1.25  36 V, Step-Down/Up, 180 kHz, 8-Pin SOIC"/>
+      <property name="Description" value="1.5A Step-Down/Up DC-DC Converter SOIC8 DiodesZetex AZ34063UMTR-G1 DC-DC Converter, 1.5A Adjustable, 1.25  36 V, Step-Down/Up, 180 kHz, 8-Pin SOIC"/>
+      <property name="Height" value="1.75"/>
+      <property name="Manufacturer_Name" value="Diodes Inc."/>
+      <property name="Manufacturer_Part_Number" value="AZ34063UMTR-G1"/>
+      <property name="Mouser Part Number" value="621-AZ34063UMTR-G1"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ34063UMTR-G1?qs=FKu9oBikfSmOGMlC%2Fa3O3g%3D%3D"/>
+      <property name="Arrow Part Number" value="AZ34063UMTR-G1"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/az34063umtr-g1/diodes-incorporated?region=nac"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>1f308126-5d65-4b4d-87be-e588c1326be3</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>220uH</value>
+      <footprint>Inductor_SMD:L_Bourns_SRR1210A</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/SRR1210.pdf</datasheet>
+      <fields>
+        <field name="Part No">SRR1210-221M</field>
+        <field name="Producer">Bourns Inc.</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Part No" value="SRR1210-221M"/>
+      <property name="Producer" value="Bourns Inc."/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>5cf29859-77dc-462f-9e68-dbbc5eed07fd</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>47uH</value>
+      <footprint>SRP1265A-470M:SRP1265A</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/SRP1265A.pdf</datasheet>
+      <fields>
+        <field name="Part No">SRP1265A-470M</field>
+        <field name="Producer">Bourns Inc.</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Part No" value="SRP1265A-470M"/>
+      <property name="Producer" value="Bourns Inc."/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>ac24b2ef-0757-4371-959f-8c8f4db6b280</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>0R33</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>1a107f84-ccb3-4eb7-a03c-44dfc9fa85da</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1K2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>0e1598b9-d56f-4681-a0ec-c1b58c39d91e</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>21b31269-b770-4e59-96d9-679c1df7ae41</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>4a36d1f9-d3a3-46a7-a5ee-d2c7f84533e2</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>99f8b021-de0c-4cce-bc6e-a311403e85d6</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>3K6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>5f235879-2268-4d61-8cd1-cb6cb4fa6a3b</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>0b319905-3d60-4c1f-a4ce-095edb85b926</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>55b01a58-deb8-40a9-ad3b-a5651694e466</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>c9165db3-e574-4283-af3f-fdae2bc81e8e</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AZ1117CH-3.3TRG1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AZ1117.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="AZ1117-3.3" description="1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/331d98c5-7dee-4472-b71e-334dc622128d/"/>
+      <tstamps>9a420497-a702-43bb-ba6d-47c15f4c133e</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>8ff82b48-e8ef-4bfa-92f0-a0f9fb3bfd58</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>8ff1b642-f3f7-45c5-96b6-ba5c3c980f05</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>984a0b31-6719-4fbb-8a6f-ab8417be448d</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>6974d454-dc80-4870-951e-8c6961bc6cb2</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>e58b5252-23e3-4f95-a9e4-e2d64971c741</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>1a63432f-9cf1-43ce-8d95-2cd1754743f4</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>9de17c55-6363-4dc3-8269-5ce7a969420b</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>38db65bc-3fe1-45a9-91e3-2c86cfddafe8</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>c4ed7d95-9df3-4181-9471-3958e8fe91f4</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>1e86924f-9071-4d5c-bb46-0a097f6a3a8a</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>23164be7-a6d3-4843-b358-7258e1be2d64</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>a104bf48-ae11-4754-90c3-48f39d642cb4</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>d521378e-a027-4064-9798-55bbe45688fb</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>7f38c774-c4ea-4c21-b822-0e9d65db40a7</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>7c39da9c-22ce-4ff0-b463-e9671a74f73c</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>498ef662-b58d-4197-8c4d-fedc6f969815</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>f1c4d52d-2fdc-4e91-8181-4bf47b478239</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>9a6f82d8-c729-4d01-b9bd-5af060435e67</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>9cc91dd1-6ebc-42e0-b8a6-673be7422065</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>470R@100MHz</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Murata%20PDFs/BLM18yyyyyyN1x.pdf</datasheet>
+      <fields>
+        <field name="Part no">BLM18KG471SN1D</field>
+      </fields>
+      <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Part no" value="BLM18KG471SN1D"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>f24c6793-d028-4cf8-8b57-e9bd8e4e9351</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>10uH - 60mA</value>
+      <footprint>Inductor_SMD:L_0201_0603Metric</footprint>
+      <datasheet>https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=LLQBA160808T100M&amp;u=M</datasheet>
+      <fields>
+        <field name="Part no">LB1608T100M</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Part no" value="LB1608T100M"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>667fb65e-e7cc-44be-966d-e37fc95476e1</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>2.2R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>da087297-1a3d-42b3-9858-8a11df95b7ec</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>33K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>788aa8fc-c5aa-461e-9acd-c35de4d2fed7</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>33K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>e8f3800d-d251-4725-8323-56c6806ad9e5</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>33K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>48ab1edd-fa06-46f3-ae25-4ff6c93c4fe6</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>FSM2JMTR:1478731</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=147873&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Part no">FSM2JMTR</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Part no" value="FSM2JMTR"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>886ac612-8dbf-4da1-858c-b980da3e669e</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>ATSAME70J21A-AN</value>
+      <footprint>Package_QFP:LQFP-64_10x10mm_P0.5mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/SAM-E70-S70-V70-V71-Family-Data-Sheet-DS60001527D.pdf</datasheet>
+      <libsource lib="MCU_Microchip_SAME" part="ATSAME70J21A-AN" description="SAM E70 Microchip SMART ARM Cortex-M7-based MCU, 2048K Flash, 384K SRAM, LQFP64"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>29bf7d77-4836-4203-b9f8-4722b7ecdc34</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal_GND2</value>
+      <footprint>ECS-120-10-33B-CKM-TR:XTAL_ECS-120-10-33B-CKM-TR</footprint>
+      <datasheet>https://ecsxtal.com/store/pdf/ECS-33B.pdf</datasheet>
+      <fields>
+        <field name="Part no">ECS-120-10-33B-CKM-TR</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND2" description="Three pin crystal, GND on pin 2"/>
+      <property name="Part no" value="ECS-120-10-33B-CKM-TR"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/d5927b45-4bd6-4aa1-82fe-893aae000d0e/"/>
+      <tstamps>32c2bba8-6a8e-4352-9b2b-a94fb06bbe53</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="UART_USB_BRIDGE"/>
+      <property name="Sheetfile" value="UART_USB_BRIDGE.kicad_sch"/>
+      <sheetpath names="/UART_USB_BRIDGE/" tstamps="/4e6f324f-d1b3-480b-a774-6d9a232f197a/"/>
+      <tstamps>4ce2090e-8a2f-4a42-9383-92f90f915d88</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="UART_USB_BRIDGE"/>
+      <property name="Sheetfile" value="UART_USB_BRIDGE.kicad_sch"/>
+      <sheetpath names="/UART_USB_BRIDGE/" tstamps="/4e6f324f-d1b3-480b-a774-6d9a232f197a/"/>
+      <tstamps>e636be0b-a632-42e9-886a-de263b4e9f8e</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="UART_USB_BRIDGE"/>
+      <property name="Sheetfile" value="UART_USB_BRIDGE.kicad_sch"/>
+      <sheetpath names="/UART_USB_BRIDGE/" tstamps="/4e6f324f-d1b3-480b-a774-6d9a232f197a/"/>
+      <tstamps>a548a9ed-d3f5-41bf-ba9e-3b0cd9fbb153</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>LED orange</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="UART_USB_BRIDGE"/>
+      <property name="Sheetfile" value="UART_USB_BRIDGE.kicad_sch"/>
+      <sheetpath names="/UART_USB_BRIDGE/" tstamps="/4e6f324f-d1b3-480b-a774-6d9a232f197a/"/>
+      <tstamps>3e5a8136-aa0b-4e55-b0ff-3dac6ee3b053</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>LED orange</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="UART_USB_BRIDGE"/>
+      <property name="Sheetfile" value="UART_USB_BRIDGE.kicad_sch"/>
+      <sheetpath names="/UART_USB_BRIDGE/" tstamps="/4e6f324f-d1b3-480b-a774-6d9a232f197a/"/>
+      <tstamps>3f96621f-29fd-45d9-a3d1-dd81d9958985</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>22.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="UART_USB_BRIDGE"/>
+      <property name="Sheetfile" value="UART_USB_BRIDGE.kicad_sch"/>
+      <sheetpath names="/UART_USB_BRIDGE/" tstamps="/4e6f324f-d1b3-480b-a774-6d9a232f197a/"/>
+      <tstamps>36975d2f-31fc-4e8d-a4ea-d2e395fef1bc</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>47.5K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="UART_USB_BRIDGE"/>
+      <property name="Sheetfile" value="UART_USB_BRIDGE.kicad_sch"/>
+      <sheetpath names="/UART_USB_BRIDGE/" tstamps="/4e6f324f-d1b3-480b-a774-6d9a232f197a/"/>
+      <tstamps>6e8b1f62-9db1-4fb9-8400-7d31112f53b7</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="UART_USB_BRIDGE"/>
+      <property name="Sheetfile" value="UART_USB_BRIDGE.kicad_sch"/>
+      <sheetpath names="/UART_USB_BRIDGE/" tstamps="/4e6f324f-d1b3-480b-a774-6d9a232f197a/"/>
+      <tstamps>f09c68f5-f4d0-4cc7-80f4-5c2c7c346be9</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="UART_USB_BRIDGE"/>
+      <property name="Sheetfile" value="UART_USB_BRIDGE.kicad_sch"/>
+      <sheetpath names="/UART_USB_BRIDGE/" tstamps="/4e6f324f-d1b3-480b-a774-6d9a232f197a/"/>
+      <tstamps>fec5b608-5ca4-42bf-a3df-f72da0b837d5</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="UART_USB_BRIDGE"/>
+      <property name="Sheetfile" value="UART_USB_BRIDGE.kicad_sch"/>
+      <sheetpath names="/UART_USB_BRIDGE/" tstamps="/4e6f324f-d1b3-480b-a774-6d9a232f197a/"/>
+      <tstamps>d091b4a5-3d58-404d-b672-c4f4545b109d</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>CP2102N-Axx-xQFN24</value>
+      <footprint>Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</footprint>
+      <datasheet>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</datasheet>
+      <libsource lib="Interface_USB" part="CP2102N-Axx-xQFN24" description="USB to UART master bridge, QFN-24"/>
+      <property name="Sheetname" value="UART_USB_BRIDGE"/>
+      <property name="Sheetfile" value="UART_USB_BRIDGE.kicad_sch"/>
+      <sheetpath names="/UART_USB_BRIDGE/" tstamps="/4e6f324f-d1b3-480b-a774-6d9a232f197a/"/>
+      <tstamps>a1deaa41-f13d-4c6d-8eab-ad56bfc7d613</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gate_driver_V"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_V/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/7597926c-4ed3-4569-8fcd-0d57bc71b245/"/>
+      <tstamps>2781b02e-3358-4c5f-bc74-aad455a27dd5</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>1000pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gate_driver_V"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_V/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/7597926c-4ed3-4569-8fcd-0d57bc71b245/"/>
+      <tstamps>0d477542-fcb2-4dde-bbfd-5f4341b7a0f7</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gate_driver_V"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_V/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/7597926c-4ed3-4569-8fcd-0d57bc71b245/"/>
+      <tstamps>cdabea10-64cb-470c-af14-97ece5660c81</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gate_driver_V"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_V/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/7597926c-4ed3-4569-8fcd-0d57bc71b245/"/>
+      <tstamps>f16663d1-d5fa-4f46-9cff-3a880189b8cf</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_1206_3216Metric</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/schottky.pdf</datasheet>
+      <fields>
+        <field name="Part no">DIODE SCHOTTKY 40V 2A 1206</field>
+        <field name="Producer">KYOCERA AVX</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Part no" value="DIODE SCHOTTKY 40V 2A 1206"/>
+      <property name="Producer" value="KYOCERA AVX"/>
+      <property name="Sheetname" value="Gate_driver_V"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_V/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/7597926c-4ed3-4569-8fcd-0d57bc71b245/"/>
+      <tstamps>f4f55dfe-359b-4698-a3a6-84467cf98825</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_1206_3216Metric</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/schottky.pdf</datasheet>
+      <fields>
+        <field name="Part no">DIODE SCHOTTKY 40V 2A 1206</field>
+        <field name="Producer">KYOCERA AVX</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Part no" value="DIODE SCHOTTKY 40V 2A 1206"/>
+      <property name="Producer" value="KYOCERA AVX"/>
+      <property name="Sheetname" value="Gate_driver_V"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_V/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/7597926c-4ed3-4569-8fcd-0d57bc71b245/"/>
+      <tstamps>eae826f8-536a-401c-b2e5-c9876b7b10f7</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_1206_3216Metric</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/schottky.pdf</datasheet>
+      <fields>
+        <field name="Part no">DIODE SCHOTTKY 40V 2A 1206</field>
+        <field name="Producer">KYOCERA AVX</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Part no" value="DIODE SCHOTTKY 40V 2A 1206"/>
+      <property name="Producer" value="KYOCERA AVX"/>
+      <property name="Sheetname" value="Gate_driver_V"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_V/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/7597926c-4ed3-4569-8fcd-0d57bc71b245/"/>
+      <tstamps>8ed85178-94c8-4361-b1a1-2f85a8deaaa8</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Gate_driver_V"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_V/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/7597926c-4ed3-4569-8fcd-0d57bc71b245/"/>
+      <tstamps>78dd13d2-8f45-4c30-9143-667d0505c723</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>10R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Gate_driver_V"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_V/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/7597926c-4ed3-4569-8fcd-0d57bc71b245/"/>
+      <tstamps>992a2b82-5d2f-40b5-af6d-2c71dd021dd1</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>10R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Gate_driver_V"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_V/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/7597926c-4ed3-4569-8fcd-0d57bc71b245/"/>
+      <tstamps>bb44cfe5-fa74-4e93-8019-ea3a46a89c07</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>FAN7390MX</value>
+      <footprint>FAN7390MX:Fairchild-CASE_751EG-0-0-0</footprint>
+      <libsource lib="FAN7390MX" part="FAN7390MX" description=""/>
+      <property name="Sheetname" value="Gate_driver_V"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_V/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/7597926c-4ed3-4569-8fcd-0d57bc71b245/"/>
+      <tstamps>e737cad8-2318-4344-b02c-3b58059911a1</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gate_driver_W"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_W/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/ca152e4f-7854-4f7e-98d3-a321d88ea700/"/>
+      <tstamps>2781b02e-3358-4c5f-bc74-aad455a27dd5</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>1000pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gate_driver_W"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_W/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/ca152e4f-7854-4f7e-98d3-a321d88ea700/"/>
+      <tstamps>0d477542-fcb2-4dde-bbfd-5f4341b7a0f7</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gate_driver_W"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_W/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/ca152e4f-7854-4f7e-98d3-a321d88ea700/"/>
+      <tstamps>cdabea10-64cb-470c-af14-97ece5660c81</tstamps>
+    </comp>
+    <comp ref="C39">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gate_driver_W"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_W/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/ca152e4f-7854-4f7e-98d3-a321d88ea700/"/>
+      <tstamps>f16663d1-d5fa-4f46-9cff-3a880189b8cf</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_1206_3216Metric</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/schottky.pdf</datasheet>
+      <fields>
+        <field name="Part no">DIODE SCHOTTKY 40V 2A 1206</field>
+        <field name="Producer">KYOCERA AVX</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Part no" value="DIODE SCHOTTKY 40V 2A 1206"/>
+      <property name="Producer" value="KYOCERA AVX"/>
+      <property name="Sheetname" value="Gate_driver_W"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_W/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/ca152e4f-7854-4f7e-98d3-a321d88ea700/"/>
+      <tstamps>f4f55dfe-359b-4698-a3a6-84467cf98825</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_1206_3216Metric</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/schottky.pdf</datasheet>
+      <fields>
+        <field name="Part no">DIODE SCHOTTKY 40V 2A 1206</field>
+        <field name="Producer">KYOCERA AVX</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Part no" value="DIODE SCHOTTKY 40V 2A 1206"/>
+      <property name="Producer" value="KYOCERA AVX"/>
+      <property name="Sheetname" value="Gate_driver_W"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_W/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/ca152e4f-7854-4f7e-98d3-a321d88ea700/"/>
+      <tstamps>eae826f8-536a-401c-b2e5-c9876b7b10f7</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_1206_3216Metric</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/schottky.pdf</datasheet>
+      <fields>
+        <field name="Part no">DIODE SCHOTTKY 40V 2A 1206</field>
+        <field name="Producer">KYOCERA AVX</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Part no" value="DIODE SCHOTTKY 40V 2A 1206"/>
+      <property name="Producer" value="KYOCERA AVX"/>
+      <property name="Sheetname" value="Gate_driver_W"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_W/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/ca152e4f-7854-4f7e-98d3-a321d88ea700/"/>
+      <tstamps>8ed85178-94c8-4361-b1a1-2f85a8deaaa8</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Gate_driver_W"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_W/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/ca152e4f-7854-4f7e-98d3-a321d88ea700/"/>
+      <tstamps>78dd13d2-8f45-4c30-9143-667d0505c723</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>10R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Gate_driver_W"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_W/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/ca152e4f-7854-4f7e-98d3-a321d88ea700/"/>
+      <tstamps>992a2b82-5d2f-40b5-af6d-2c71dd021dd1</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>10R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Gate_driver_W"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_W/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/ca152e4f-7854-4f7e-98d3-a321d88ea700/"/>
+      <tstamps>bb44cfe5-fa74-4e93-8019-ea3a46a89c07</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>FAN7390MX</value>
+      <footprint>FAN7390MX:Fairchild-CASE_751EG-0-0-0</footprint>
+      <libsource lib="FAN7390MX" part="FAN7390MX" description=""/>
+      <property name="Sheetname" value="Gate_driver_W"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_W/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/ca152e4f-7854-4f7e-98d3-a321d88ea700/"/>
+      <tstamps>e737cad8-2318-4344-b02c-3b58059911a1</tstamps>
+    </comp>
+    <comp ref="C40">
+      <value>270uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x10</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDD0000/ABA0000C1221.pdf</datasheet>
+      <fields>
+        <field name="Part no">EEH-ZA1V271V</field>
+        <field name="Producer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Part no" value="EEH-ZA1V271V"/>
+      <property name="Producer" value="Panasonic Electronic Components"/>
+      <property name="Sheetname" value="three_phase_full_bridge"/>
+      <property name="Sheetfile" value="three_phase_full_bridge.kicad_sch"/>
+      <sheetpath names="/Powerstage/three_phase_full_bridge/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/1bf60df6-947a-41ce-b885-a4a1b891d028/"/>
+      <tstamps>b6a407bb-fe39-4e1c-b540-80a658f39f39</tstamps>
+    </comp>
+    <comp ref="C41">
+      <value>270uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x10</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDD0000/ABA0000C1221.pdf</datasheet>
+      <fields>
+        <field name="Part no">EEH-ZA1V271V</field>
+        <field name="Producer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Part no" value="EEH-ZA1V271V"/>
+      <property name="Producer" value="Panasonic Electronic Components"/>
+      <property name="Sheetname" value="three_phase_full_bridge"/>
+      <property name="Sheetfile" value="three_phase_full_bridge.kicad_sch"/>
+      <sheetpath names="/Powerstage/three_phase_full_bridge/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/1bf60df6-947a-41ce-b885-a4a1b891d028/"/>
+      <tstamps>4f926d68-d6ef-4d5a-98bd-6b4de872dcd5</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>IRFH7084TRPBF</value>
+      <footprint>IRFH7084PbF:Infineon-PQFN5x6-G-02_2017-22-MFG</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-IRFH7084-DataSheet-v02_01-EN.pdf?fileId=5546d462533600a40153561eac461ed4</datasheet>
+      <fields>
+        <field name="automotive">No</field>
+        <field name="category">Trans</field>
+        <field name="continuous drain current">40A</field>
+        <field name="depletion mode">False</field>
+        <field name="device class L1">Discrete Semiconductors</field>
+        <field name="device class L2">Transistors</field>
+        <field name="device class L3">MOSFETs</field>
+        <field name="digikey description">MOSFET N-CH 40V 100A 8QFN</field>
+        <field name="digikey part number">IRFH7084TRPBFCT-ND</field>
+        <field name="drain to source breakdown voltage">40V</field>
+        <field name="drain to source resistance">0.95mΩ</field>
+        <field name="footprint url">https://www.infineon.com/dgdl/an-1136.pdf?fileId=5546d462533600a401535599f0ef10c7</field>
+        <field name="gate charge at vgs">127nC @ 10V</field>
+        <field name="gate to source voltage">20V</field>
+        <field name="height">1.1mm</field>
+        <field name="input capacitace at vds">6560pF @ 25V</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">8f1d5186d1ffa25a</field>
+        <field name="manufacturer">Infineon</field>
+        <field name="max forward diode voltage">1.3V</field>
+        <field name="max junction temp">+150°C</field>
+        <field name="mouser part number">942-IRFH7084TRPBF</field>
+        <field name="number of N channels">1</field>
+        <field name="number of channels">1</field>
+        <field name="package">PQFN8</field>
+        <field name="pulse drain current">1060A</field>
+        <field name="reverse recovery charge">38nC</field>
+        <field name="reverse recovery time">36ns</field>
+        <field name="rohs">Yes</field>
+        <field name="rthja max">35°C/W</field>
+        <field name="standoff height">0mm</field>
+        <field name="temperature range high">+150°C</field>
+        <field name="temperature range low">-55°C</field>
+        <field name="threshold vgs max">3.9V</field>
+        <field name="threshold vgs min">2.2V</field>
+        <field name="turn off delay time">64ns</field>
+        <field name="turn on delay time">16ns</field>
+      </fields>
+      <libsource lib="IRFH7084TRPBF" part="IRFH7084TRPBF" description=""/>
+      <property name="automotive" value="No"/>
+      <property name="category" value="Trans"/>
+      <property name="continuous drain current" value="40A"/>
+      <property name="depletion mode" value="False"/>
+      <property name="device class L1" value="Discrete Semiconductors"/>
+      <property name="device class L2" value="Transistors"/>
+      <property name="device class L3" value="MOSFETs"/>
+      <property name="digikey description" value="MOSFET N-CH 40V 100A 8QFN"/>
+      <property name="digikey part number" value="IRFH7084TRPBFCT-ND"/>
+      <property name="drain to source breakdown voltage" value="40V"/>
+      <property name="drain to source resistance" value="0.95mΩ"/>
+      <property name="footprint url" value="https://www.infineon.com/dgdl/an-1136.pdf?fileId=5546d462533600a401535599f0ef10c7"/>
+      <property name="gate charge at vgs" value="127nC @ 10V"/>
+      <property name="gate to source voltage" value="20V"/>
+      <property name="height" value="1.1mm"/>
+      <property name="input capacitace at vds" value="6560pF @ 25V"/>
+      <property name="lead free" value="Yes"/>
+      <property name="library id" value="8f1d5186d1ffa25a"/>
+      <property name="manufacturer" value="Infineon"/>
+      <property name="max forward diode voltage" value="1.3V"/>
+      <property name="max junction temp" value="+150°C"/>
+      <property name="mouser part number" value="942-IRFH7084TRPBF"/>
+      <property name="number of N channels" value="1"/>
+      <property name="number of channels" value="1"/>
+      <property name="package" value="PQFN8"/>
+      <property name="pulse drain current" value="1060A"/>
+      <property name="reverse recovery charge" value="38nC"/>
+      <property name="reverse recovery time" value="36ns"/>
+      <property name="rohs" value="Yes"/>
+      <property name="rthja max" value="35°C/W"/>
+      <property name="standoff height" value="0mm"/>
+      <property name="temperature range high" value="+150°C"/>
+      <property name="temperature range low" value="-55°C"/>
+      <property name="threshold vgs max" value="3.9V"/>
+      <property name="threshold vgs min" value="2.2V"/>
+      <property name="turn off delay time" value="64ns"/>
+      <property name="turn on delay time" value="16ns"/>
+      <property name="Sheetname" value="three_phase_full_bridge"/>
+      <property name="Sheetfile" value="three_phase_full_bridge.kicad_sch"/>
+      <sheetpath names="/Powerstage/three_phase_full_bridge/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/1bf60df6-947a-41ce-b885-a4a1b891d028/"/>
+      <tstamps>2589409c-f735-4863-a734-fba5815c35b8</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>IRFH7084TRPBF</value>
+      <footprint>IRFH7084PbF:Infineon-PQFN5x6-G-02_2017-22-MFG</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-IRFH7084-DataSheet-v02_01-EN.pdf?fileId=5546d462533600a40153561eac461ed4</datasheet>
+      <fields>
+        <field name="automotive">No</field>
+        <field name="category">Trans</field>
+        <field name="continuous drain current">40A</field>
+        <field name="depletion mode">False</field>
+        <field name="device class L1">Discrete Semiconductors</field>
+        <field name="device class L2">Transistors</field>
+        <field name="device class L3">MOSFETs</field>
+        <field name="digikey description">MOSFET N-CH 40V 100A 8QFN</field>
+        <field name="digikey part number">IRFH7084TRPBFCT-ND</field>
+        <field name="drain to source breakdown voltage">40V</field>
+        <field name="drain to source resistance">0.95mΩ</field>
+        <field name="footprint url">https://www.infineon.com/dgdl/an-1136.pdf?fileId=5546d462533600a401535599f0ef10c7</field>
+        <field name="gate charge at vgs">127nC @ 10V</field>
+        <field name="gate to source voltage">20V</field>
+        <field name="height">1.1mm</field>
+        <field name="input capacitace at vds">6560pF @ 25V</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">8f1d5186d1ffa25a</field>
+        <field name="manufacturer">Infineon</field>
+        <field name="max forward diode voltage">1.3V</field>
+        <field name="max junction temp">+150°C</field>
+        <field name="mouser part number">942-IRFH7084TRPBF</field>
+        <field name="number of N channels">1</field>
+        <field name="number of channels">1</field>
+        <field name="package">PQFN8</field>
+        <field name="pulse drain current">1060A</field>
+        <field name="reverse recovery charge">38nC</field>
+        <field name="reverse recovery time">36ns</field>
+        <field name="rohs">Yes</field>
+        <field name="rthja max">35°C/W</field>
+        <field name="standoff height">0mm</field>
+        <field name="temperature range high">+150°C</field>
+        <field name="temperature range low">-55°C</field>
+        <field name="threshold vgs max">3.9V</field>
+        <field name="threshold vgs min">2.2V</field>
+        <field name="turn off delay time">64ns</field>
+        <field name="turn on delay time">16ns</field>
+      </fields>
+      <libsource lib="IRFH7084TRPBF" part="IRFH7084TRPBF" description=""/>
+      <property name="automotive" value="No"/>
+      <property name="category" value="Trans"/>
+      <property name="continuous drain current" value="40A"/>
+      <property name="depletion mode" value="False"/>
+      <property name="device class L1" value="Discrete Semiconductors"/>
+      <property name="device class L2" value="Transistors"/>
+      <property name="device class L3" value="MOSFETs"/>
+      <property name="digikey description" value="MOSFET N-CH 40V 100A 8QFN"/>
+      <property name="digikey part number" value="IRFH7084TRPBFCT-ND"/>
+      <property name="drain to source breakdown voltage" value="40V"/>
+      <property name="drain to source resistance" value="0.95mΩ"/>
+      <property name="footprint url" value="https://www.infineon.com/dgdl/an-1136.pdf?fileId=5546d462533600a401535599f0ef10c7"/>
+      <property name="gate charge at vgs" value="127nC @ 10V"/>
+      <property name="gate to source voltage" value="20V"/>
+      <property name="height" value="1.1mm"/>
+      <property name="input capacitace at vds" value="6560pF @ 25V"/>
+      <property name="lead free" value="Yes"/>
+      <property name="library id" value="8f1d5186d1ffa25a"/>
+      <property name="manufacturer" value="Infineon"/>
+      <property name="max forward diode voltage" value="1.3V"/>
+      <property name="max junction temp" value="+150°C"/>
+      <property name="mouser part number" value="942-IRFH7084TRPBF"/>
+      <property name="number of N channels" value="1"/>
+      <property name="number of channels" value="1"/>
+      <property name="package" value="PQFN8"/>
+      <property name="pulse drain current" value="1060A"/>
+      <property name="reverse recovery charge" value="38nC"/>
+      <property name="reverse recovery time" value="36ns"/>
+      <property name="rohs" value="Yes"/>
+      <property name="rthja max" value="35°C/W"/>
+      <property name="standoff height" value="0mm"/>
+      <property name="temperature range high" value="+150°C"/>
+      <property name="temperature range low" value="-55°C"/>
+      <property name="threshold vgs max" value="3.9V"/>
+      <property name="threshold vgs min" value="2.2V"/>
+      <property name="turn off delay time" value="64ns"/>
+      <property name="turn on delay time" value="16ns"/>
+      <property name="Sheetname" value="three_phase_full_bridge"/>
+      <property name="Sheetfile" value="three_phase_full_bridge.kicad_sch"/>
+      <sheetpath names="/Powerstage/three_phase_full_bridge/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/1bf60df6-947a-41ce-b885-a4a1b891d028/"/>
+      <tstamps>457652b8-6a96-4695-948b-aa41e6ff6373</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>IRFH7084TRPBF</value>
+      <footprint>IRFH7084PbF:Infineon-PQFN5x6-G-02_2017-22-MFG</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-IRFH7084-DataSheet-v02_01-EN.pdf?fileId=5546d462533600a40153561eac461ed4</datasheet>
+      <fields>
+        <field name="automotive">No</field>
+        <field name="category">Trans</field>
+        <field name="continuous drain current">40A</field>
+        <field name="depletion mode">False</field>
+        <field name="device class L1">Discrete Semiconductors</field>
+        <field name="device class L2">Transistors</field>
+        <field name="device class L3">MOSFETs</field>
+        <field name="digikey description">MOSFET N-CH 40V 100A 8QFN</field>
+        <field name="digikey part number">IRFH7084TRPBFCT-ND</field>
+        <field name="drain to source breakdown voltage">40V</field>
+        <field name="drain to source resistance">0.95mΩ</field>
+        <field name="footprint url">https://www.infineon.com/dgdl/an-1136.pdf?fileId=5546d462533600a401535599f0ef10c7</field>
+        <field name="gate charge at vgs">127nC @ 10V</field>
+        <field name="gate to source voltage">20V</field>
+        <field name="height">1.1mm</field>
+        <field name="input capacitace at vds">6560pF @ 25V</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">8f1d5186d1ffa25a</field>
+        <field name="manufacturer">Infineon</field>
+        <field name="max forward diode voltage">1.3V</field>
+        <field name="max junction temp">+150°C</field>
+        <field name="mouser part number">942-IRFH7084TRPBF</field>
+        <field name="number of N channels">1</field>
+        <field name="number of channels">1</field>
+        <field name="package">PQFN8</field>
+        <field name="pulse drain current">1060A</field>
+        <field name="reverse recovery charge">38nC</field>
+        <field name="reverse recovery time">36ns</field>
+        <field name="rohs">Yes</field>
+        <field name="rthja max">35°C/W</field>
+        <field name="standoff height">0mm</field>
+        <field name="temperature range high">+150°C</field>
+        <field name="temperature range low">-55°C</field>
+        <field name="threshold vgs max">3.9V</field>
+        <field name="threshold vgs min">2.2V</field>
+        <field name="turn off delay time">64ns</field>
+        <field name="turn on delay time">16ns</field>
+      </fields>
+      <libsource lib="IRFH7084TRPBF" part="IRFH7084TRPBF" description=""/>
+      <property name="automotive" value="No"/>
+      <property name="category" value="Trans"/>
+      <property name="continuous drain current" value="40A"/>
+      <property name="depletion mode" value="False"/>
+      <property name="device class L1" value="Discrete Semiconductors"/>
+      <property name="device class L2" value="Transistors"/>
+      <property name="device class L3" value="MOSFETs"/>
+      <property name="digikey description" value="MOSFET N-CH 40V 100A 8QFN"/>
+      <property name="digikey part number" value="IRFH7084TRPBFCT-ND"/>
+      <property name="drain to source breakdown voltage" value="40V"/>
+      <property name="drain to source resistance" value="0.95mΩ"/>
+      <property name="footprint url" value="https://www.infineon.com/dgdl/an-1136.pdf?fileId=5546d462533600a401535599f0ef10c7"/>
+      <property name="gate charge at vgs" value="127nC @ 10V"/>
+      <property name="gate to source voltage" value="20V"/>
+      <property name="height" value="1.1mm"/>
+      <property name="input capacitace at vds" value="6560pF @ 25V"/>
+      <property name="lead free" value="Yes"/>
+      <property name="library id" value="8f1d5186d1ffa25a"/>
+      <property name="manufacturer" value="Infineon"/>
+      <property name="max forward diode voltage" value="1.3V"/>
+      <property name="max junction temp" value="+150°C"/>
+      <property name="mouser part number" value="942-IRFH7084TRPBF"/>
+      <property name="number of N channels" value="1"/>
+      <property name="number of channels" value="1"/>
+      <property name="package" value="PQFN8"/>
+      <property name="pulse drain current" value="1060A"/>
+      <property name="reverse recovery charge" value="38nC"/>
+      <property name="reverse recovery time" value="36ns"/>
+      <property name="rohs" value="Yes"/>
+      <property name="rthja max" value="35°C/W"/>
+      <property name="standoff height" value="0mm"/>
+      <property name="temperature range high" value="+150°C"/>
+      <property name="temperature range low" value="-55°C"/>
+      <property name="threshold vgs max" value="3.9V"/>
+      <property name="threshold vgs min" value="2.2V"/>
+      <property name="turn off delay time" value="64ns"/>
+      <property name="turn on delay time" value="16ns"/>
+      <property name="Sheetname" value="three_phase_full_bridge"/>
+      <property name="Sheetfile" value="three_phase_full_bridge.kicad_sch"/>
+      <sheetpath names="/Powerstage/three_phase_full_bridge/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/1bf60df6-947a-41ce-b885-a4a1b891d028/"/>
+      <tstamps>2f80d6f4-a765-4a02-b9fd-987e383479c9</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>IRFH7084TRPBF</value>
+      <footprint>IRFH7084PbF:Infineon-PQFN5x6-G-02_2017-22-MFG</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-IRFH7084-DataSheet-v02_01-EN.pdf?fileId=5546d462533600a40153561eac461ed4</datasheet>
+      <fields>
+        <field name="automotive">No</field>
+        <field name="category">Trans</field>
+        <field name="continuous drain current">40A</field>
+        <field name="depletion mode">False</field>
+        <field name="device class L1">Discrete Semiconductors</field>
+        <field name="device class L2">Transistors</field>
+        <field name="device class L3">MOSFETs</field>
+        <field name="digikey description">MOSFET N-CH 40V 100A 8QFN</field>
+        <field name="digikey part number">IRFH7084TRPBFCT-ND</field>
+        <field name="drain to source breakdown voltage">40V</field>
+        <field name="drain to source resistance">0.95mΩ</field>
+        <field name="footprint url">https://www.infineon.com/dgdl/an-1136.pdf?fileId=5546d462533600a401535599f0ef10c7</field>
+        <field name="gate charge at vgs">127nC @ 10V</field>
+        <field name="gate to source voltage">20V</field>
+        <field name="height">1.1mm</field>
+        <field name="input capacitace at vds">6560pF @ 25V</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">8f1d5186d1ffa25a</field>
+        <field name="manufacturer">Infineon</field>
+        <field name="max forward diode voltage">1.3V</field>
+        <field name="max junction temp">+150°C</field>
+        <field name="mouser part number">942-IRFH7084TRPBF</field>
+        <field name="number of N channels">1</field>
+        <field name="number of channels">1</field>
+        <field name="package">PQFN8</field>
+        <field name="pulse drain current">1060A</field>
+        <field name="reverse recovery charge">38nC</field>
+        <field name="reverse recovery time">36ns</field>
+        <field name="rohs">Yes</field>
+        <field name="rthja max">35°C/W</field>
+        <field name="standoff height">0mm</field>
+        <field name="temperature range high">+150°C</field>
+        <field name="temperature range low">-55°C</field>
+        <field name="threshold vgs max">3.9V</field>
+        <field name="threshold vgs min">2.2V</field>
+        <field name="turn off delay time">64ns</field>
+        <field name="turn on delay time">16ns</field>
+      </fields>
+      <libsource lib="IRFH7084TRPBF" part="IRFH7084TRPBF" description=""/>
+      <property name="automotive" value="No"/>
+      <property name="category" value="Trans"/>
+      <property name="continuous drain current" value="40A"/>
+      <property name="depletion mode" value="False"/>
+      <property name="device class L1" value="Discrete Semiconductors"/>
+      <property name="device class L2" value="Transistors"/>
+      <property name="device class L3" value="MOSFETs"/>
+      <property name="digikey description" value="MOSFET N-CH 40V 100A 8QFN"/>
+      <property name="digikey part number" value="IRFH7084TRPBFCT-ND"/>
+      <property name="drain to source breakdown voltage" value="40V"/>
+      <property name="drain to source resistance" value="0.95mΩ"/>
+      <property name="footprint url" value="https://www.infineon.com/dgdl/an-1136.pdf?fileId=5546d462533600a401535599f0ef10c7"/>
+      <property name="gate charge at vgs" value="127nC @ 10V"/>
+      <property name="gate to source voltage" value="20V"/>
+      <property name="height" value="1.1mm"/>
+      <property name="input capacitace at vds" value="6560pF @ 25V"/>
+      <property name="lead free" value="Yes"/>
+      <property name="library id" value="8f1d5186d1ffa25a"/>
+      <property name="manufacturer" value="Infineon"/>
+      <property name="max forward diode voltage" value="1.3V"/>
+      <property name="max junction temp" value="+150°C"/>
+      <property name="mouser part number" value="942-IRFH7084TRPBF"/>
+      <property name="number of N channels" value="1"/>
+      <property name="number of channels" value="1"/>
+      <property name="package" value="PQFN8"/>
+      <property name="pulse drain current" value="1060A"/>
+      <property name="reverse recovery charge" value="38nC"/>
+      <property name="reverse recovery time" value="36ns"/>
+      <property name="rohs" value="Yes"/>
+      <property name="rthja max" value="35°C/W"/>
+      <property name="standoff height" value="0mm"/>
+      <property name="temperature range high" value="+150°C"/>
+      <property name="temperature range low" value="-55°C"/>
+      <property name="threshold vgs max" value="3.9V"/>
+      <property name="threshold vgs min" value="2.2V"/>
+      <property name="turn off delay time" value="64ns"/>
+      <property name="turn on delay time" value="16ns"/>
+      <property name="Sheetname" value="three_phase_full_bridge"/>
+      <property name="Sheetfile" value="three_phase_full_bridge.kicad_sch"/>
+      <sheetpath names="/Powerstage/three_phase_full_bridge/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/1bf60df6-947a-41ce-b885-a4a1b891d028/"/>
+      <tstamps>c49a9879-78ff-48c8-9930-3e18e232392b</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>IRFH7084TRPBF</value>
+      <footprint>IRFH7084PbF:Infineon-PQFN5x6-G-02_2017-22-MFG</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-IRFH7084-DataSheet-v02_01-EN.pdf?fileId=5546d462533600a40153561eac461ed4</datasheet>
+      <fields>
+        <field name="automotive">No</field>
+        <field name="category">Trans</field>
+        <field name="continuous drain current">40A</field>
+        <field name="depletion mode">False</field>
+        <field name="device class L1">Discrete Semiconductors</field>
+        <field name="device class L2">Transistors</field>
+        <field name="device class L3">MOSFETs</field>
+        <field name="digikey description">MOSFET N-CH 40V 100A 8QFN</field>
+        <field name="digikey part number">IRFH7084TRPBFCT-ND</field>
+        <field name="drain to source breakdown voltage">40V</field>
+        <field name="drain to source resistance">0.95mΩ</field>
+        <field name="footprint url">https://www.infineon.com/dgdl/an-1136.pdf?fileId=5546d462533600a401535599f0ef10c7</field>
+        <field name="gate charge at vgs">127nC @ 10V</field>
+        <field name="gate to source voltage">20V</field>
+        <field name="height">1.1mm</field>
+        <field name="input capacitace at vds">6560pF @ 25V</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">8f1d5186d1ffa25a</field>
+        <field name="manufacturer">Infineon</field>
+        <field name="max forward diode voltage">1.3V</field>
+        <field name="max junction temp">+150°C</field>
+        <field name="mouser part number">942-IRFH7084TRPBF</field>
+        <field name="number of N channels">1</field>
+        <field name="number of channels">1</field>
+        <field name="package">PQFN8</field>
+        <field name="pulse drain current">1060A</field>
+        <field name="reverse recovery charge">38nC</field>
+        <field name="reverse recovery time">36ns</field>
+        <field name="rohs">Yes</field>
+        <field name="rthja max">35°C/W</field>
+        <field name="standoff height">0mm</field>
+        <field name="temperature range high">+150°C</field>
+        <field name="temperature range low">-55°C</field>
+        <field name="threshold vgs max">3.9V</field>
+        <field name="threshold vgs min">2.2V</field>
+        <field name="turn off delay time">64ns</field>
+        <field name="turn on delay time">16ns</field>
+      </fields>
+      <libsource lib="IRFH7084TRPBF" part="IRFH7084TRPBF" description=""/>
+      <property name="automotive" value="No"/>
+      <property name="category" value="Trans"/>
+      <property name="continuous drain current" value="40A"/>
+      <property name="depletion mode" value="False"/>
+      <property name="device class L1" value="Discrete Semiconductors"/>
+      <property name="device class L2" value="Transistors"/>
+      <property name="device class L3" value="MOSFETs"/>
+      <property name="digikey description" value="MOSFET N-CH 40V 100A 8QFN"/>
+      <property name="digikey part number" value="IRFH7084TRPBFCT-ND"/>
+      <property name="drain to source breakdown voltage" value="40V"/>
+      <property name="drain to source resistance" value="0.95mΩ"/>
+      <property name="footprint url" value="https://www.infineon.com/dgdl/an-1136.pdf?fileId=5546d462533600a401535599f0ef10c7"/>
+      <property name="gate charge at vgs" value="127nC @ 10V"/>
+      <property name="gate to source voltage" value="20V"/>
+      <property name="height" value="1.1mm"/>
+      <property name="input capacitace at vds" value="6560pF @ 25V"/>
+      <property name="lead free" value="Yes"/>
+      <property name="library id" value="8f1d5186d1ffa25a"/>
+      <property name="manufacturer" value="Infineon"/>
+      <property name="max forward diode voltage" value="1.3V"/>
+      <property name="max junction temp" value="+150°C"/>
+      <property name="mouser part number" value="942-IRFH7084TRPBF"/>
+      <property name="number of N channels" value="1"/>
+      <property name="number of channels" value="1"/>
+      <property name="package" value="PQFN8"/>
+      <property name="pulse drain current" value="1060A"/>
+      <property name="reverse recovery charge" value="38nC"/>
+      <property name="reverse recovery time" value="36ns"/>
+      <property name="rohs" value="Yes"/>
+      <property name="rthja max" value="35°C/W"/>
+      <property name="standoff height" value="0mm"/>
+      <property name="temperature range high" value="+150°C"/>
+      <property name="temperature range low" value="-55°C"/>
+      <property name="threshold vgs max" value="3.9V"/>
+      <property name="threshold vgs min" value="2.2V"/>
+      <property name="turn off delay time" value="64ns"/>
+      <property name="turn on delay time" value="16ns"/>
+      <property name="Sheetname" value="three_phase_full_bridge"/>
+      <property name="Sheetfile" value="three_phase_full_bridge.kicad_sch"/>
+      <sheetpath names="/Powerstage/three_phase_full_bridge/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/1bf60df6-947a-41ce-b885-a4a1b891d028/"/>
+      <tstamps>af0e5653-847a-437d-b0bb-100d5ea56fe1</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>IRFH7084TRPBF</value>
+      <footprint>IRFH7084PbF:Infineon-PQFN5x6-G-02_2017-22-MFG</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-IRFH7084-DataSheet-v02_01-EN.pdf?fileId=5546d462533600a40153561eac461ed4</datasheet>
+      <fields>
+        <field name="automotive">No</field>
+        <field name="category">Trans</field>
+        <field name="continuous drain current">40A</field>
+        <field name="depletion mode">False</field>
+        <field name="device class L1">Discrete Semiconductors</field>
+        <field name="device class L2">Transistors</field>
+        <field name="device class L3">MOSFETs</field>
+        <field name="digikey description">MOSFET N-CH 40V 100A 8QFN</field>
+        <field name="digikey part number">IRFH7084TRPBFCT-ND</field>
+        <field name="drain to source breakdown voltage">40V</field>
+        <field name="drain to source resistance">0.95mΩ</field>
+        <field name="footprint url">https://www.infineon.com/dgdl/an-1136.pdf?fileId=5546d462533600a401535599f0ef10c7</field>
+        <field name="gate charge at vgs">127nC @ 10V</field>
+        <field name="gate to source voltage">20V</field>
+        <field name="height">1.1mm</field>
+        <field name="input capacitace at vds">6560pF @ 25V</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">8f1d5186d1ffa25a</field>
+        <field name="manufacturer">Infineon</field>
+        <field name="max forward diode voltage">1.3V</field>
+        <field name="max junction temp">+150°C</field>
+        <field name="mouser part number">942-IRFH7084TRPBF</field>
+        <field name="number of N channels">1</field>
+        <field name="number of channels">1</field>
+        <field name="package">PQFN8</field>
+        <field name="pulse drain current">1060A</field>
+        <field name="reverse recovery charge">38nC</field>
+        <field name="reverse recovery time">36ns</field>
+        <field name="rohs">Yes</field>
+        <field name="rthja max">35°C/W</field>
+        <field name="standoff height">0mm</field>
+        <field name="temperature range high">+150°C</field>
+        <field name="temperature range low">-55°C</field>
+        <field name="threshold vgs max">3.9V</field>
+        <field name="threshold vgs min">2.2V</field>
+        <field name="turn off delay time">64ns</field>
+        <field name="turn on delay time">16ns</field>
+      </fields>
+      <libsource lib="IRFH7084TRPBF" part="IRFH7084TRPBF" description=""/>
+      <property name="automotive" value="No"/>
+      <property name="category" value="Trans"/>
+      <property name="continuous drain current" value="40A"/>
+      <property name="depletion mode" value="False"/>
+      <property name="device class L1" value="Discrete Semiconductors"/>
+      <property name="device class L2" value="Transistors"/>
+      <property name="device class L3" value="MOSFETs"/>
+      <property name="digikey description" value="MOSFET N-CH 40V 100A 8QFN"/>
+      <property name="digikey part number" value="IRFH7084TRPBFCT-ND"/>
+      <property name="drain to source breakdown voltage" value="40V"/>
+      <property name="drain to source resistance" value="0.95mΩ"/>
+      <property name="footprint url" value="https://www.infineon.com/dgdl/an-1136.pdf?fileId=5546d462533600a401535599f0ef10c7"/>
+      <property name="gate charge at vgs" value="127nC @ 10V"/>
+      <property name="gate to source voltage" value="20V"/>
+      <property name="height" value="1.1mm"/>
+      <property name="input capacitace at vds" value="6560pF @ 25V"/>
+      <property name="lead free" value="Yes"/>
+      <property name="library id" value="8f1d5186d1ffa25a"/>
+      <property name="manufacturer" value="Infineon"/>
+      <property name="max forward diode voltage" value="1.3V"/>
+      <property name="max junction temp" value="+150°C"/>
+      <property name="mouser part number" value="942-IRFH7084TRPBF"/>
+      <property name="number of N channels" value="1"/>
+      <property name="number of channels" value="1"/>
+      <property name="package" value="PQFN8"/>
+      <property name="pulse drain current" value="1060A"/>
+      <property name="reverse recovery charge" value="38nC"/>
+      <property name="reverse recovery time" value="36ns"/>
+      <property name="rohs" value="Yes"/>
+      <property name="rthja max" value="35°C/W"/>
+      <property name="standoff height" value="0mm"/>
+      <property name="temperature range high" value="+150°C"/>
+      <property name="temperature range low" value="-55°C"/>
+      <property name="threshold vgs max" value="3.9V"/>
+      <property name="threshold vgs min" value="2.2V"/>
+      <property name="turn off delay time" value="64ns"/>
+      <property name="turn on delay time" value="16ns"/>
+      <property name="Sheetname" value="three_phase_full_bridge"/>
+      <property name="Sheetfile" value="three_phase_full_bridge.kicad_sch"/>
+      <sheetpath names="/Powerstage/three_phase_full_bridge/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/1bf60df6-947a-41ce-b885-a4a1b891d028/"/>
+      <tstamps>197f91d6-4ec0-4144-9c2e-48271dc62aea</tstamps>
+    </comp>
+    <comp ref="C46">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="measurements_phase_U"/>
+      <property name="Sheetfile" value="measurements_phase_U.kicad_sch"/>
+      <sheetpath names="/Powerstage/measurements_phase_U/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/e96e4823-284d-4471-ba86-c27947f80d29/"/>
+      <tstamps>abd8de70-0c01-437a-a661-7a0fa245101c</tstamps>
+    </comp>
+    <comp ref="C47">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="measurements_phase_U"/>
+      <property name="Sheetfile" value="measurements_phase_U.kicad_sch"/>
+      <sheetpath names="/Powerstage/measurements_phase_U/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/e96e4823-284d-4471-ba86-c27947f80d29/"/>
+      <tstamps>2f4e0496-e75d-4605-a991-9905723fd72d</tstamps>
+    </comp>
+    <comp ref="C48">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="measurements_phase_U"/>
+      <property name="Sheetfile" value="measurements_phase_U.kicad_sch"/>
+      <sheetpath names="/Powerstage/measurements_phase_U/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/e96e4823-284d-4471-ba86-c27947f80d29/"/>
+      <tstamps>2240469f-9cd1-4a3a-961d-5f9d8abadf43</tstamps>
+    </comp>
+    <comp ref="C49">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="measurements_phase_U"/>
+      <property name="Sheetfile" value="measurements_phase_U.kicad_sch"/>
+      <sheetpath names="/Powerstage/measurements_phase_U/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/e96e4823-284d-4471-ba86-c27947f80d29/"/>
+      <tstamps>dd8d211c-8d3e-40d2-969e-3afc330d3e76</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>2mOhm</value>
+      <footprint>WSHP28182L000FEA:WSHM28185L000FEA</footprint>
+      <datasheet>https://www.vishay.com/docs/30347/wshp2818.pdf</datasheet>
+      <fields>
+        <field name="P_rating">3.2W</field>
+        <field name="Part no">WSHM28182L000FEA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="P_rating" value="3.2W"/>
+      <property name="Part no" value="WSHM28182L000FEA"/>
+      <property name="Sheetname" value="measurements_phase_U"/>
+      <property name="Sheetfile" value="measurements_phase_U.kicad_sch"/>
+      <sheetpath names="/Powerstage/measurements_phase_U/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/e96e4823-284d-4471-ba86-c27947f80d29/"/>
+      <tstamps>3bca563e-992e-4ba7-8db6-73dd13e443b8</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="measurements_phase_U"/>
+      <property name="Sheetfile" value="measurements_phase_U.kicad_sch"/>
+      <sheetpath names="/Powerstage/measurements_phase_U/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/e96e4823-284d-4471-ba86-c27947f80d29/"/>
+      <tstamps>3c5e14a2-a9e3-44aa-9603-a20d4c67e1ba</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>15K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="measurements_phase_U"/>
+      <property name="Sheetfile" value="measurements_phase_U.kicad_sch"/>
+      <sheetpath names="/Powerstage/measurements_phase_U/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/e96e4823-284d-4471-ba86-c27947f80d29/"/>
+      <tstamps>d479ae9e-95b3-4632-982f-992228419edb</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>MAX40056UAUA/V+</value>
+      <footprint>MAX40056UAUA:MAX40056UAUA&amp;slash_V&amp;plus_</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX40056F-MAX40056U.pdf</datasheet>
+      <libsource lib="MAX40056UAUA" part="MAX40056UAUA{slash}V+" description=""/>
+      <property name="Sheetname" value="measurements_phase_U"/>
+      <property name="Sheetfile" value="measurements_phase_U.kicad_sch"/>
+      <sheetpath names="/Powerstage/measurements_phase_U/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/e96e4823-284d-4471-ba86-c27947f80d29/"/>
+      <tstamps>88928c6d-ce96-480c-9dfc-7564b1f970e8</tstamps>
+    </comp>
+    <comp ref="C50">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="measurements_phase_V"/>
+      <property name="Sheetfile" value="measurements_phase_V.kicad_sch"/>
+      <sheetpath names="/Powerstage/measurements_phase_V/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/13335f2e-16f6-49cc-8ca5-afedd08bb16e/"/>
+      <tstamps>a3b3c76d-ae1e-46db-951f-238bcf86c437</tstamps>
+    </comp>
+    <comp ref="C51">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="measurements_phase_V"/>
+      <property name="Sheetfile" value="measurements_phase_V.kicad_sch"/>
+      <sheetpath names="/Powerstage/measurements_phase_V/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/13335f2e-16f6-49cc-8ca5-afedd08bb16e/"/>
+      <tstamps>1f91006c-8d18-4d81-b2fc-4470a9136f43</tstamps>
+    </comp>
+    <comp ref="C52">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="measurements_phase_V"/>
+      <property name="Sheetfile" value="measurements_phase_V.kicad_sch"/>
+      <sheetpath names="/Powerstage/measurements_phase_V/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/13335f2e-16f6-49cc-8ca5-afedd08bb16e/"/>
+      <tstamps>478f35d8-fe21-40fd-b994-7d4b2c3aee4a</tstamps>
+    </comp>
+    <comp ref="C53">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="measurements_phase_V"/>
+      <property name="Sheetfile" value="measurements_phase_V.kicad_sch"/>
+      <sheetpath names="/Powerstage/measurements_phase_V/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/13335f2e-16f6-49cc-8ca5-afedd08bb16e/"/>
+      <tstamps>1df7ad85-a6b3-465f-b66e-1ed6250dc57d</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>2mOhm</value>
+      <footprint>WSHP28182L000FEA:WSHM28185L000FEA</footprint>
+      <datasheet>https://www.vishay.com/docs/30347/wshp2818.pdf</datasheet>
+      <fields>
+        <field name="P_rating">3.2W</field>
+        <field name="Part no">WSHM28182L000FEA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="P_rating" value="3.2W"/>
+      <property name="Part no" value="WSHM28182L000FEA"/>
+      <property name="Sheetname" value="measurements_phase_V"/>
+      <property name="Sheetfile" value="measurements_phase_V.kicad_sch"/>
+      <sheetpath names="/Powerstage/measurements_phase_V/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/13335f2e-16f6-49cc-8ca5-afedd08bb16e/"/>
+      <tstamps>b2ca49ab-c6c5-4bba-8888-458e1bc3021f</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="measurements_phase_V"/>
+      <property name="Sheetfile" value="measurements_phase_V.kicad_sch"/>
+      <sheetpath names="/Powerstage/measurements_phase_V/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/13335f2e-16f6-49cc-8ca5-afedd08bb16e/"/>
+      <tstamps>5b6c1afb-1e8b-4c18-9057-43b9ef240fa2</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>15K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="measurements_phase_V"/>
+      <property name="Sheetfile" value="measurements_phase_V.kicad_sch"/>
+      <sheetpath names="/Powerstage/measurements_phase_V/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/13335f2e-16f6-49cc-8ca5-afedd08bb16e/"/>
+      <tstamps>9598a0fb-5f38-43e1-bd9b-bb8314314276</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>MAX40056UAUA/V+</value>
+      <footprint>MAX40056UAUA:MAX40056UAUA&amp;slash_V&amp;plus_</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX40056F-MAX40056U.pdf</datasheet>
+      <libsource lib="MAX40056UAUA" part="MAX40056UAUA{slash}V+" description=""/>
+      <property name="Sheetname" value="measurements_phase_V"/>
+      <property name="Sheetfile" value="measurements_phase_V.kicad_sch"/>
+      <sheetpath names="/Powerstage/measurements_phase_V/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/13335f2e-16f6-49cc-8ca5-afedd08bb16e/"/>
+      <tstamps>6090e8a4-05f0-45a7-ba25-c5e164139a86</tstamps>
+    </comp>
+    <comp ref="C42">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gate_driver_U"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_U/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/bd345657-61fa-4a58-8f95-2e7013608ac4/"/>
+      <tstamps>2781b02e-3358-4c5f-bc74-aad455a27dd5</tstamps>
+    </comp>
+    <comp ref="C43">
+      <value>1000pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gate_driver_U"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_U/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/bd345657-61fa-4a58-8f95-2e7013608ac4/"/>
+      <tstamps>0d477542-fcb2-4dde-bbfd-5f4341b7a0f7</tstamps>
+    </comp>
+    <comp ref="C44">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gate_driver_U"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_U/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/bd345657-61fa-4a58-8f95-2e7013608ac4/"/>
+      <tstamps>cdabea10-64cb-470c-af14-97ece5660c81</tstamps>
+    </comp>
+    <comp ref="C45">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gate_driver_U"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_U/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/bd345657-61fa-4a58-8f95-2e7013608ac4/"/>
+      <tstamps>f16663d1-d5fa-4f46-9cff-3a880189b8cf</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_1206_3216Metric</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/schottky.pdf</datasheet>
+      <fields>
+        <field name="Part no">DIODE SCHOTTKY 40V 2A 1206</field>
+        <field name="Producer">KYOCERA AVX</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Part no" value="DIODE SCHOTTKY 40V 2A 1206"/>
+      <property name="Producer" value="KYOCERA AVX"/>
+      <property name="Sheetname" value="Gate_driver_U"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_U/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/bd345657-61fa-4a58-8f95-2e7013608ac4/"/>
+      <tstamps>f4f55dfe-359b-4698-a3a6-84467cf98825</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_1206_3216Metric</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/schottky.pdf</datasheet>
+      <fields>
+        <field name="Part no">DIODE SCHOTTKY 40V 2A 1206</field>
+        <field name="Producer">KYOCERA AVX</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Part no" value="DIODE SCHOTTKY 40V 2A 1206"/>
+      <property name="Producer" value="KYOCERA AVX"/>
+      <property name="Sheetname" value="Gate_driver_U"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_U/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/bd345657-61fa-4a58-8f95-2e7013608ac4/"/>
+      <tstamps>eae826f8-536a-401c-b2e5-c9876b7b10f7</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_1206_3216Metric</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/schottky.pdf</datasheet>
+      <fields>
+        <field name="Part no">DIODE SCHOTTKY 40V 2A 1206</field>
+        <field name="Producer">KYOCERA AVX</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Part no" value="DIODE SCHOTTKY 40V 2A 1206"/>
+      <property name="Producer" value="KYOCERA AVX"/>
+      <property name="Sheetname" value="Gate_driver_U"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_U/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/bd345657-61fa-4a58-8f95-2e7013608ac4/"/>
+      <tstamps>8ed85178-94c8-4361-b1a1-2f85a8deaaa8</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Gate_driver_U"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_U/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/bd345657-61fa-4a58-8f95-2e7013608ac4/"/>
+      <tstamps>78dd13d2-8f45-4c30-9143-667d0505c723</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>10R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Gate_driver_U"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_U/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/bd345657-61fa-4a58-8f95-2e7013608ac4/"/>
+      <tstamps>992a2b82-5d2f-40b5-af6d-2c71dd021dd1</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>10R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Gate_driver_U"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_U/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/bd345657-61fa-4a58-8f95-2e7013608ac4/"/>
+      <tstamps>bb44cfe5-fa74-4e93-8019-ea3a46a89c07</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>FAN7390MX</value>
+      <footprint>FAN7390MX:Fairchild-CASE_751EG-0-0-0</footprint>
+      <libsource lib="FAN7390MX" part="FAN7390MX" description=""/>
+      <property name="Sheetname" value="Gate_driver_U"/>
+      <property name="Sheetfile" value="Gate_driver.kicad_sch"/>
+      <sheetpath names="/Powerstage/Gate_driver_U/" tstamps="/691d8587-6f69-4038-a59b-9d26928d9a32/bd345657-61fa-4a58-8f95-2e7013608ac4/"/>
+      <tstamps>e737cad8-2318-4344-b02c-3b58059911a1</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="10118193-0001LF" part="10118193-0001LF">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">10118193-0001LF</field>
+        <field name="Footprint">FCI_10118193-0001LF</field>
+        <field name="DESCRIPTION">Single Port 5 Contact Shielded SMT MICRO USB B-Type Receptacle</field>
+        <field name="MF">Amphenol FCI</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="PACKAGE">None</field>
+        <field name="MP">10118193-0001LF</field>
+        <field name="PRICE">None</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VUSB" type="passive"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+        <pin num="S2" name="SHIELD" type="passive"/>
+        <pin num="S3" name="SHIELD" type="passive"/>
+        <pin num="S4" name="SHIELD" type="passive"/>
+        <pin num="S5" name="SHIELD" type="passive"/>
+        <pin num="S6" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AZ34063UMTR-G1" part="AZ34063UMTR-G1">
+      <description>1.5A Step-Down/Up DC-DC Converter SOIC8 DiodesZetex AZ34063UMTR-G1 DC-DC Converter, 1.5A Adjustable, 1.25  36 V, Step-Down/Up, 180 kHz, 8-Pin SOIC</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/AZ34063UMTR-G1.pdf</docs>
+      <fields>
+        <field name="Reference">IC?</field>
+        <field name="Value">AZ34063UMTR-G1</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/AZ34063UMTR-G1.pdf</field>
+        <field name="Description">1.5A Step-Down/Up DC-DC Converter SOIC8 DiodesZetex AZ34063UMTR-G1 DC-DC Converter, 1.5A Adjustable, 1.25  36 V, Step-Down/Up, 180 kHz, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">AZ34063UMTR-G1</field>
+        <field name="Mouser Part Number">621-AZ34063UMTR-G1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ34063UMTR-G1?qs=FKu9oBikfSmOGMlC%2Fa3O3g%3D%3D</field>
+        <field name="Arrow Part Number">AZ34063UMTR-G1</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/az34063umtr-g1/diodes-incorporated?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SWITCH_COLLECTOR" type="passive"/>
+        <pin num="2" name="SWITCH_EMITTER" type="passive"/>
+        <pin num="3" name="TIMING_CAPACITOR" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="COMPARATOR_INVERTING_INPUT" type="passive"/>
+        <pin num="6" name="VCC" type="passive"/>
+        <pin num="7" name="IPK_SENSE" type="passive"/>
+        <pin num="8" name="DRIVER_COLLECTOR" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND2">
+      <description>Three pin crystal, GND on pin 2</description>
+      <docs>https://ecsxtal.com/store/pdf/ECS-33B.pdf</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y1</field>
+        <field name="Value">Crystal_GND2</field>
+        <field name="Footprint">ECS-120-10-33B-CKM-TR:XTAL_ECS-120-10-33B-CKM-TR</field>
+        <field name="Datasheet">https://ecsxtal.com/store/pdf/ECS-33B.pdf</field>
+        <field name="Part no">ECS-120-10-33B-CKM-TR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FAN7390MX" part="FAN7390MX">
+      <footprints>
+        <fp>8SOP_ONS</fp>
+        <fp>8SOP_ONS-M</fp>
+        <fp>8SOP_ONS-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U?</field>
+        <field name="Value">FAN7390MX</field>
+        <field name="Footprint">8SOP_ONS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="HIN" type="input"/>
+        <pin num="2" name="LIN" type="input"/>
+        <pin num="3" name="COM" type="unspecified"/>
+        <pin num="4" name="LO" type="output"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="VS" type="power_in"/>
+        <pin num="7" name="HO" type="output"/>
+        <pin num="8" name="VB" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="IRFH7084TRPBF" part="IRFH7084TRPBF">
+      <docs>https://www.infineon.com/dgdl/Infineon-IRFH7084-DataSheet-v02_01-EN.pdf?fileId=5546d462533600a40153561eac461ed4</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRFH7084TRPBF</field>
+        <field name="Footprint">Infineon-PQFN5x6-G-02_2017-22-*</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/Infineon-IRFH7084-DataSheet-v02_01-EN.pdf?fileId=5546d462533600a40153561eac461ed4</field>
+        <field name="automotive">No</field>
+        <field name="category">Trans</field>
+        <field name="continuous drain current">40A</field>
+        <field name="depletion mode">False</field>
+        <field name="device class L1">Discrete Semiconductors</field>
+        <field name="device class L2">Transistors</field>
+        <field name="device class L3">MOSFETs</field>
+        <field name="digikey description">MOSFET N-CH 40V 100A 8QFN</field>
+        <field name="digikey part number">IRFH7084TRPBFCT-ND</field>
+        <field name="drain to source breakdown voltage">40V</field>
+        <field name="drain to source resistance">0.95mΩ</field>
+        <field name="footprint url">https://www.infineon.com/dgdl/an-1136.pdf?fileId=5546d462533600a401535599f0ef10c7</field>
+        <field name="gate charge at vgs">127nC @ 10V</field>
+        <field name="gate to source voltage">20V</field>
+        <field name="height">1.1mm</field>
+        <field name="input capacitace at vds">6560pF @ 25V</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">8f1d5186d1ffa25a</field>
+        <field name="manufacturer">Infineon</field>
+        <field name="max forward diode voltage">1.3V</field>
+        <field name="max junction temp">+150°C</field>
+        <field name="mouser part number">942-IRFH7084TRPBF</field>
+        <field name="number of N channels">1</field>
+        <field name="number of channels">1</field>
+        <field name="package">PQFN8</field>
+        <field name="pulse drain current">1060A</field>
+        <field name="reverse recovery charge">38nC</field>
+        <field name="reverse recovery time">36ns</field>
+        <field name="rohs">Yes</field>
+        <field name="rthja max">35°C/W</field>
+        <field name="standoff height">0mm</field>
+        <field name="temperature range high">+150°C</field>
+        <field name="temperature range low">-55°C</field>
+        <field name="threshold vgs max">3.9V</field>
+        <field name="threshold vgs min">2.2V</field>
+        <field name="turn off delay time">64ns</field>
+        <field name="turn on delay time">16ns</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+        <pin num="5-6-7-8" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="CP2102N-Axx-xQFN24">
+      <description>USB to UART master bridge, QFN-24</description>
+      <docs>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</docs>
+      <footprints>
+        <fp>QFN*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CP2102N-Axx-xQFN24</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</field>
+        <field name="Datasheet">https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RI}/CLK" type="bidirectional"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="D-" type="bidirectional"/>
+        <pin num="5" name="VIO" type="power_in"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="VREGIN" type="power_in"/>
+        <pin num="8" name="VBUS" type="input"/>
+        <pin num="9" name="~{RST}" type="input"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="~{WAKEUP}/GPIO.3" type="bidirectional"/>
+        <pin num="12" name="RS485/GPIO.2" type="bidirectional"/>
+        <pin num="13" name="~{RXT}/GPIO.1" type="bidirectional"/>
+        <pin num="14" name="~{TXT}/GPIO.0" type="bidirectional"/>
+        <pin num="15" name="~{SUSPEND}" type="output"/>
+        <pin num="16" name="NC" type="no_connect"/>
+        <pin num="17" name="SUSPEND" type="output"/>
+        <pin num="18" name="~{CTS}" type="input"/>
+        <pin num="19" name="~{RTS}" type="output"/>
+        <pin num="20" name="RXD" type="input"/>
+        <pin num="21" name="TXD" type="output"/>
+        <pin num="22" name="~{DSR}" type="input"/>
+        <pin num="23" name="~{DTR}" type="output"/>
+        <pin num="24" name="~{DCD}" type="input"/>
+        <pin num="25" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAX40056UAUA" part="MAX40056UAUA{slash}V+">
+      <docs>https://datasheets.maximintegrated.com/en/ds/MAX40056F-MAX40056U.pdf</docs>
+      <footprints>
+        <fp>21-0036K_MXM</fp>
+        <fp>21-0036K_MXM-M</fp>
+        <fp>21-0036K_MXM-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U?</field>
+        <field name="Value">MAX40056UAUA/V+</field>
+        <field name="Footprint">21-0036K_MXM</field>
+        <field name="Datasheet">https://datasheets.maximintegrated.com/en/ds/MAX40056F-MAX40056U.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RS+" type="input"/>
+        <pin num="2" name="COP" type="output"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="OUT" type="output"/>
+        <pin num="5" name="REF" type="output"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="CIP" type="input"/>
+        <pin num="8" name="RS-" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_SAME" part="ATSAME70J21A-AN">
+      <description>SAM E70 Microchip SMART ARM Cortex-M7-based MCU, 2048K Flash, 384K SRAM, LQFP64</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/SAM-E70-S70-V70-V71-Family-Data-Sheet-DS60001527D.pdf</docs>
+      <footprints>
+        <fp>LQFP*10x10mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATSAME70J21A-AN</field>
+        <field name="Footprint">Package_QFP:LQFP-64_10x10mm_P0.5mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/SAM-E70-S70-V70-V71-Family-Data-Sheet-DS60001527D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD0" type="bidirectional"/>
+        <pin num="2" name="PD31" type="bidirectional"/>
+        <pin num="3" name="VDDOUT" type="power_in"/>
+        <pin num="4" name="VDDIN" type="power_in"/>
+        <pin num="5" name="VREFP" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="PB1" type="bidirectional"/>
+        <pin num="8" name="PB0" type="bidirectional"/>
+        <pin num="9" name="PB2" type="bidirectional"/>
+        <pin num="10" name="VDDIO" type="power_in"/>
+        <pin num="11" name="PB3" type="bidirectional"/>
+        <pin num="12" name="PA21" type="bidirectional"/>
+        <pin num="13" name="VDDCORE" type="power_in"/>
+        <pin num="14" name="GND" type="passive"/>
+        <pin num="15" name="PA7" type="bidirectional"/>
+        <pin num="16" name="PA8" type="bidirectional"/>
+        <pin num="17" name="PA22" type="bidirectional"/>
+        <pin num="18" name="PA13" type="bidirectional"/>
+        <pin num="19" name="PA14" type="bidirectional"/>
+        <pin num="20" name="PD25" type="bidirectional"/>
+        <pin num="21" name="PD26" type="bidirectional"/>
+        <pin num="22" name="PD24" type="bidirectional"/>
+        <pin num="23" name="PA24" type="bidirectional"/>
+        <pin num="24" name="VDDCORE" type="passive"/>
+        <pin num="25" name="PD22" type="bidirectional"/>
+        <pin num="26" name="PD21" type="bidirectional"/>
+        <pin num="27" name="PA11" type="bidirectional"/>
+        <pin num="28" name="PA10" type="bidirectional"/>
+        <pin num="29" name="PA12" type="bidirectional"/>
+        <pin num="30" name="PA27" type="bidirectional"/>
+        <pin num="31" name="GND" type="passive"/>
+        <pin num="32" name="PA5" type="bidirectional"/>
+        <pin num="33" name="PA9" type="bidirectional"/>
+        <pin num="34" name="PA4" type="bidirectional"/>
+        <pin num="35" name="PB6" type="bidirectional"/>
+        <pin num="36" name="NRST" type="bidirectional"/>
+        <pin num="37" name="TST" type="input"/>
+        <pin num="38" name="PB12" type="bidirectional"/>
+        <pin num="39" name="PB7" type="bidirectional"/>
+        <pin num="40" name="PA3" type="bidirectional"/>
+        <pin num="41" name="PD12" type="bidirectional"/>
+        <pin num="42" name="VDDIO" type="passive"/>
+        <pin num="43" name="PD11" type="bidirectional"/>
+        <pin num="44" name="PD10" type="bidirectional"/>
+        <pin num="45" name="JTAGSEL" type="input"/>
+        <pin num="46" name="PB4" type="bidirectional"/>
+        <pin num="47" name="PB5" type="bidirectional"/>
+        <pin num="48" name="PD9" type="bidirectional"/>
+        <pin num="49" name="PD8" type="bidirectional"/>
+        <pin num="50" name="PD7" type="bidirectional"/>
+        <pin num="51" name="PD6" type="bidirectional"/>
+        <pin num="52" name="VDDPLL" type="power_in"/>
+        <pin num="53" name="PD5" type="bidirectional"/>
+        <pin num="54" name="PD4" type="bidirectional"/>
+        <pin num="55" name="PD3" type="bidirectional"/>
+        <pin num="56" name="PD2" type="bidirectional"/>
+        <pin num="57" name="PD1" type="bidirectional"/>
+        <pin num="58" name="VDDIO" type="passive"/>
+        <pin num="59" name="DM" type="bidirectional"/>
+        <pin num="60" name="DP" type="bidirectional"/>
+        <pin num="61" name="VDDCORE" type="passive"/>
+        <pin num="62" name="PB8" type="bidirectional"/>
+        <pin num="63" name="PB9" type="bidirectional"/>
+        <pin num="64" name="VDDPLLUSB" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Power_Protection" part="PESD3V3L5UY">
+      <description>Low capacitance unidirectional fivefold ESD protection diode array, 3.3V, Common Anode, SOT-363</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf</docs>
+      <footprints>
+        <fp>SOT?363*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PESD3V3L5UY</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="K2" type="passive"/>
+        <pin num="4" name="K3" type="passive"/>
+        <pin num="5" name="K4" type="passive"/>
+        <pin num="6" name="K5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="SP0503BAHT">
+      <description>TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package</description>
+      <docs>http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf</docs>
+      <footprints>
+        <fp>SOT?143*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SP0503BAHT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-143</field>
+        <field name="Datasheet">http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+        <pin num="4" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AZ1117-3.3">
+      <description>1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AZ1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+        <fp>SOT?89*</fp>
+        <fp>TO?220*</fp>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AZ1117-3.3</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AZ1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tvs_diode" part="TVS_diode">
+      <description>Generic TVS diode</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TVS_diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AZ34063UMTR-G1">
+      <uri>C:/Users/oscar/Documents/FOC-ESC/Hardware/symbols_and_footprints/AZ34063UMTR-G1/AZ34063UMTR-G1.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="FAN7390MX">
+      <uri>C:\Users\oscar\Documents\FOC-ESC\Hardware\symbols_and_footprints\FAN7390MX\2022-08-12_19-53-00.lib</uri>
+    </library>
+    <library logical="IRFH7084TRPBF">
+      <uri>C:/Users/oscar/Documents/FOC-ESC/Hardware/symbols_and_footprints/IRFH7084PbF/eec.lib</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Interface_USB.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_SAME">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_Microchip_SAME.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Power_Protection.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="tvs_diode">
+      <uri>C:\Users\oscar\Documents\FOC-ESC\Hardware\esc_v1/tvs_diode.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C46" pin="1" pintype="passive"/>
+      <node ref="C47" pin="1" pintype="passive"/>
+      <node ref="C50" pin="1" pintype="passive"/>
+      <node ref="C51" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U10" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U4" pin="10" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="VDDIN" pintype="power_in"/>
+      <node ref="U4" pin="42" pinfunction="VDDIO" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="VREFP" pintype="input"/>
+      <node ref="U4" pin="58" pinfunction="VDDIO" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="VIO" pintype="power_in"/>
+      <node ref="U5" pin="6" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="7" pinfunction="VREGIN" pintype="power_in"/>
+      <node ref="U9" pin="3" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="VUSB" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="3" name="+BATT">
+      <node ref="D3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="4" name="/+BATT_FUSED">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C40" pin="1" pintype="passive"/>
+      <node ref="C41" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="VCC" pintype="passive"/>
+      <node ref="L3" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="5-6-7-8" pinfunction="D" pintype="passive"/>
+      <node ref="Q3" pin="5-6-7-8" pinfunction="D" pintype="passive"/>
+      <node ref="Q5" pin="5-6-7-8" pinfunction="D" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/MCU/LED_0">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U4" pin="57" pinfunction="PD1" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/MCU/LED_1">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U4" pin="56" pinfunction="PD2" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/MCU/LED_2">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U4" pin="55" pinfunction="PD3" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/MCU/PWM_H0">
+      <node ref="U4" pin="43" pinfunction="PD11" pintype="bidirectional"/>
+      <node ref="U6" pin="1" pinfunction="HIN" pintype="input"/>
+    </net>
+    <net code="9" name="/MCU/PWM_H1">
+      <node ref="U1" pin="1" pinfunction="HIN" pintype="input"/>
+      <node ref="U4" pin="29" pinfunction="PA12" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/MCU/PWM_H2">
+      <node ref="U3" pin="1" pinfunction="HIN" pintype="input"/>
+      <node ref="U4" pin="46" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/MCU/PWM_L0">
+      <node ref="U4" pin="44" pinfunction="PD10" pintype="bidirectional"/>
+      <node ref="U6" pin="2" pinfunction="LIN" pintype="input"/>
+    </net>
+    <net code="12" name="/MCU/PWM_L1">
+      <node ref="U1" pin="2" pinfunction="LIN" pintype="input"/>
+      <node ref="U4" pin="38" pinfunction="PB12" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/MCU/PWM_L2">
+      <node ref="U3" pin="2" pinfunction="LIN" pintype="input"/>
+      <node ref="U4" pin="21" pinfunction="PD26" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/MCU/UART0_RX">
+      <node ref="U4" pin="28" pinfunction="PA10" pintype="bidirectional"/>
+      <node ref="U5" pin="20" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="15" name="/MCU/UART0_TX">
+      <node ref="U4" pin="33" pinfunction="PA9" pintype="bidirectional"/>
+      <node ref="U5" pin="21" pinfunction="TXD" pintype="output"/>
+    </net>
+    <net code="16" name="/MCU/VDDCORE">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="VDDCORE" pintype="power_in"/>
+      <node ref="U4" pin="24" pinfunction="VDDCORE" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="VDDOUT" pintype="power_in"/>
+      <node ref="U4" pin="61" pinfunction="VDDCORE" pintype="passive"/>
+    </net>
+    <net code="17" name="/MCU/VDDPLL">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="U4" pin="52" pinfunction="VDDPLL" pintype="power_in"/>
+    </net>
+    <net code="18" name="/MCU/VDDPLLUSB">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="U4" pin="64" pinfunction="VDDPLLUSB" pintype="power_in"/>
+    </net>
+    <net code="19" name="/MCU/V_sense">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="PA21" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/MCU/XIN">
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="U4" pin="63" pinfunction="PB9" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="21" name="/MCU/XOUT">
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="U4" pin="62" pinfunction="PB8" pintype="bidirectional"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="22" name="/MCU/curr_sense_U">
+      <node ref="U4" pin="9" pinfunction="PB2" pintype="bidirectional"/>
+      <node ref="U9" pin="4" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="23" name="/MCU/curr_sense_V">
+      <node ref="U10" pin="4" pinfunction="OUT" pintype="output"/>
+      <node ref="U4" pin="11" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/MCU/overcurr_err_U">
+      <node ref="U4" pin="7" pinfunction="PB1" pintype="bidirectional"/>
+      <node ref="U9" pin="2" pinfunction="COP" pintype="output"/>
+    </net>
+    <net code="25" name="/MCU/overcurr_err_V">
+      <node ref="U10" pin="2" pinfunction="COP" pintype="output"/>
+      <node ref="U4" pin="8" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/NRST">
+      <node ref="D2" pin="6" pinfunction="K5" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="36" pinfunction="NRST" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/PHASE_U">
+      <node ref="D8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="U9" pin="8" pinfunction="RS-" pintype="input"/>
+    </net>
+    <net code="29" name="/PHASE_V">
+      <node ref="D6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U10" pin="8" pinfunction="RS-" pintype="input"/>
+    </net>
+    <net code="30" name="/PHASE_W">
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="C39" pin="2" pintype="passive"/>
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="5-6-7-8" pinfunction="D" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="VS" pintype="power_in"/>
+    </net>
+    <net code="31" name="/Powerstage/Gate_driver_U/HO">
+      <node ref="Q1" pin="4" pinfunction="G" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="/Powerstage/Gate_driver_U/HS">
+      <node ref="C44" pin="2" pintype="passive"/>
+      <node ref="C45" pin="2" pintype="passive"/>
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="5-6-7-8" pinfunction="D" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="VS" pintype="power_in"/>
+      <node ref="U9" pin="1" pinfunction="RS+" pintype="input"/>
+    </net>
+    <net code="33" name="/Powerstage/Gate_driver_U/LO">
+      <node ref="Q2" pin="4" pinfunction="G" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="/Powerstage/Gate_driver_V/HO">
+      <node ref="Q3" pin="4" pinfunction="G" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="/Powerstage/Gate_driver_V/HS">
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="5-6-7-8" pinfunction="D" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="VS" pintype="power_in"/>
+      <node ref="U10" pin="1" pinfunction="RS+" pintype="input"/>
+    </net>
+    <net code="36" name="/Powerstage/Gate_driver_V/LO">
+      <node ref="Q4" pin="4" pinfunction="G" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="/Powerstage/Gate_driver_W/HO">
+      <node ref="Q5" pin="4" pinfunction="G" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="/Powerstage/Gate_driver_W/LO">
+      <node ref="Q6" pin="4" pinfunction="G" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="/SWCLK">
+      <node ref="D2" pin="4" pinfunction="K3" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U4" pin="39" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/SWDIO">
+      <node ref="D2" pin="3" pinfunction="K2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U4" pin="35" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/TRACESWO">
+      <node ref="D2" pin="5" pinfunction="K4" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U4" pin="47" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/UART_USB_BRIDGE/VBUS">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U5" pin="8" pinfunction="VBUS" pintype="input"/>
+    </net>
+    <net code="43" name="/USB_DM">
+      <node ref="D9" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="D-" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/USB_DP">
+      <node ref="D9" pin="4" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="D+" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/VCC_filtered">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="C42" pin="1" pintype="passive"/>
+      <node ref="C43" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="L3" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="46" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="C41" pin="2" pintype="passive"/>
+      <node ref="C42" pin="2" pintype="passive"/>
+      <node ref="C43" pin="2" pintype="passive"/>
+      <node ref="C46" pin="2" pintype="passive"/>
+      <node ref="C47" pin="2" pintype="passive"/>
+      <node ref="C48" pin="2" pintype="passive"/>
+      <node ref="C49" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C50" pin="2" pintype="passive"/>
+      <node ref="C51" pin="2" pintype="passive"/>
+      <node ref="C52" pin="2" pintype="passive"/>
+      <node ref="C53" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="COM" pintype="unspecified"/>
+      <node ref="U10" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="COM" pintype="unspecified"/>
+      <node ref="U4" pin="14" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="31" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="37" pinfunction="TST" pintype="input"/>
+      <node ref="U4" pin="45" pinfunction="JTAGSEL" pintype="input"/>
+      <node ref="U4" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="25" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="COM" pintype="unspecified"/>
+      <node ref="U9" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J4" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J4" pin="S2" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J4" pin="S3" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J4" pin="S4" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J4" pin="S5" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J4" pin="S6" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="TIMING_CAPACITOR" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(C34-Pad1)">
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VB" pintype="power_in"/>
+    </net>
+    <net code="53" name="Net-(C38-Pad1)">
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="C39" pin="1" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="VB" pintype="power_in"/>
+    </net>
+    <net code="54" name="Net-(C44-Pad1)">
+      <node ref="C44" pin="1" pintype="passive"/>
+      <node ref="C45" pin="1" pintype="passive"/>
+      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="VB" pintype="power_in"/>
+    </net>
+    <net code="55" name="Net-(C48-Pad1)">
+      <node ref="C48" pin="1" pintype="passive"/>
+      <node ref="C49" pin="1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U9" pin="5" pinfunction="REF" pintype="output"/>
+    </net>
+    <net code="56" name="Net-(C52-Pad1)">
+      <node ref="C52" pin="1" pintype="passive"/>
+      <node ref="C53" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U10" pin="5" pinfunction="REF" pintype="output"/>
+    </net>
+    <net code="57" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(D10-Pad1)">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="SWITCH_EMITTER" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(D11-Pad1)">
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U5" pin="14" pinfunction="~{TXT}/GPIO.0" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(D12-Pad1)">
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U5" pin="13" pinfunction="~{RXT}/GPIO.1" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(D14-Pad1)">
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="HO" pintype="output"/>
+    </net>
+    <net code="67" name="Net-(D15-Pad1)">
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="LO" pintype="output"/>
+    </net>
+    <net code="68" name="Net-(D16-Pad2)">
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(D17-Pad1)">
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="HO" pintype="output"/>
+    </net>
+    <net code="70" name="Net-(D18-Pad1)">
+      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="LO" pintype="output"/>
+    </net>
+    <net code="71" name="Net-(D19-Pad2)">
+      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(D20-Pad1)">
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="HO" pintype="output"/>
+    </net>
+    <net code="73" name="Net-(D21-Pad1)">
+      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="LO" pintype="output"/>
+    </net>
+    <net code="74" name="Net-(IC1-Pad1)">
+      <node ref="IC1" pin="1" pinfunction="SWITCH_COLLECTOR" pintype="passive"/>
+      <node ref="IC1" pin="7" pinfunction="IPK_SENSE" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="DRIVER_COLLECTOR" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5" pinfunction="COMPARATOR_INVERTING_INPUT" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(L2-Pad1)">
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U5" pin="9" pinfunction="~{RST}" pintype="input"/>
+    </net>
+    <net code="78" name="Net-(R29-Pad2)">
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U9" pin="7" pinfunction="CIP" pintype="input"/>
+    </net>
+    <net code="79" name="Net-(R32-Pad2)">
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="U10" pin="7" pinfunction="CIP" pintype="input"/>
+    </net>
+    <net code="80" name="unconnected-(J4-Pad4)">
+      <node ref="J4" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U4-Pad1)">
+      <node ref="U4" pin="1" pinfunction="PD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U4-Pad2)">
+      <node ref="U4" pin="2" pinfunction="PD31" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U4-Pad15)">
+      <node ref="U4" pin="15" pinfunction="PA7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U4-Pad16)">
+      <node ref="U4" pin="16" pinfunction="PA8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U4-Pad17)">
+      <node ref="U4" pin="17" pinfunction="PA22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U4-Pad18)">
+      <node ref="U4" pin="18" pinfunction="PA13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U4-Pad19)">
+      <node ref="U4" pin="19" pinfunction="PA14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U4-Pad20)">
+      <node ref="U4" pin="20" pinfunction="PD25" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U4-Pad22)">
+      <node ref="U4" pin="22" pinfunction="PD24" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U4-Pad23)">
+      <node ref="U4" pin="23" pinfunction="PA24" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U4-Pad25)">
+      <node ref="U4" pin="25" pinfunction="PD22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U4-Pad26)">
+      <node ref="U4" pin="26" pinfunction="PD21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U4-Pad27)">
+      <node ref="U4" pin="27" pinfunction="PA11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U4-Pad30)">
+      <node ref="U4" pin="30" pinfunction="PA27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U4-Pad32)">
+      <node ref="U4" pin="32" pinfunction="PA5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U4-Pad34)">
+      <node ref="U4" pin="34" pinfunction="PA4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U4-Pad40)">
+      <node ref="U4" pin="40" pinfunction="PA3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U4-Pad41)">
+      <node ref="U4" pin="41" pinfunction="PD12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U4-Pad48)">
+      <node ref="U4" pin="48" pinfunction="PD9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U4-Pad49)">
+      <node ref="U4" pin="49" pinfunction="PD8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U4-Pad50)">
+      <node ref="U4" pin="50" pinfunction="PD7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U4-Pad51)">
+      <node ref="U4" pin="51" pinfunction="PD6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U4-Pad53)">
+      <node ref="U4" pin="53" pinfunction="PD5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U4-Pad54)">
+      <node ref="U4" pin="54" pinfunction="PD4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U4-Pad59)">
+      <node ref="U4" pin="59" pinfunction="DM" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U4-Pad60)">
+      <node ref="U4" pin="60" pinfunction="DP" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U5-Pad1)">
+      <node ref="U5" pin="1" pinfunction="~{RI}/CLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U5-Pad10)">
+      <node ref="U5" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(U5-Pad11)">
+      <node ref="U5" pin="11" pinfunction="~{WAKEUP}/GPIO.3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(U5-Pad12)">
+      <node ref="U5" pin="12" pinfunction="RS485/GPIO.2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(U5-Pad15)">
+      <node ref="U5" pin="15" pinfunction="~{SUSPEND}" pintype="output+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(U5-Pad16)">
+      <node ref="U5" pin="16" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(U5-Pad17)">
+      <node ref="U5" pin="17" pinfunction="SUSPEND" pintype="output+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(U5-Pad18)">
+      <node ref="U5" pin="18" pinfunction="~{CTS}" pintype="input+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(U5-Pad19)">
+      <node ref="U5" pin="19" pinfunction="~{RTS}" pintype="output+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(U5-Pad22)">
+      <node ref="U5" pin="22" pinfunction="~{DSR}" pintype="input+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(U5-Pad23)">
+      <node ref="U5" pin="23" pinfunction="~{DTR}" pintype="output+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(U5-Pad24)">
+      <node ref="U5" pin="24" pinfunction="~{DCD}" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

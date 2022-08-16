@@ -125,6 +125,7 @@
       },
       "track_widths": [
         0.0,
+        0.2,
         0.25,
         0.3,
         0.5,
@@ -557,16 +558,12 @@
       "UART_USB_BRIDGE"
     ],
     [
-      "39c0cc32-6a86-4e78-a3b7-c15e844be400",
-      "Gate_driver_phase_U"
+      "7597926c-4ed3-4569-8fcd-0d57bc71b245",
+      "Gate_driver_V"
     ],
     [
-      "b7d9cd02-9a13-4c1d-9bd2-2bc42242fcc3",
-      "Gate_driver_phase_V"
-    ],
-    [
-      "e9b59bde-549a-4f50-ba95-232bd84e8638",
-      "Gate_driver_phase_W"
+      "ca152e4f-7854-4f7e-98d3-a321d88ea700",
+      "Gate_driver_W"
     ],
     [
       "1bf60df6-947a-41ce-b885-a4a1b891d028",
@@ -579,6 +576,10 @@
     [
       "13335f2e-16f6-49cc-8ca5-afedd08bb16e",
       "measurements_phase_V"
+    ],
+    [
+      "bd345657-61fa-4a58-8f95-2e7013608ac4",
+      "Gate_driver_U"
     ]
   ],
   "text_variables": {}
