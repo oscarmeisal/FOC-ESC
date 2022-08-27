@@ -3891,22 +3891,22 @@
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "FSM2JMTR:1478731")
     )
     (path "/d5927b45-4bd6-4aa1-82fe-893aae000d0e/cd8f309e-4098-436a-982e-cdf1251dbd70"
-      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D3.0mm")
+      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
     )
     (path "/d5927b45-4bd6-4aa1-82fe-893aae000d0e/5118c9b1-185e-41cc-8f06-163888a1726f"
-      (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D3.0mm")
+      (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
     )
     (path "/d5927b45-4bd6-4aa1-82fe-893aae000d0e/11d5b0dd-f6c0-4829-a0b1-bc4a46714121"
-      (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D3.0mm")
+      (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
     )
     (path "/d5927b45-4bd6-4aa1-82fe-893aae000d0e/2382b774-17bb-48a4-9827-7dcf23d22db7"
-      (reference "TP4") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D3.0mm")
+      (reference "TP4") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
     )
     (path "/d5927b45-4bd6-4aa1-82fe-893aae000d0e/5f471e91-6420-4733-9268-4c4278be3073"
-      (reference "TP5") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D3.0mm")
+      (reference "TP5") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
     )
     (path "/d5927b45-4bd6-4aa1-82fe-893aae000d0e/29f846fc-8bb4-4df9-9d82-40dd7baa599b"
-      (reference "TP6") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D3.0mm")
+      (reference "TP6") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
     )
     (path "/691d8587-6f69-4038-a59b-9d26928d9a32/7597926c-4ed3-4569-8fcd-0d57bc71b245/e737cad8-2318-4344-b02c-3b58059911a1"
       (reference "U1") (unit 1) (value "FAN7390MX") (footprint "FAN7390MX:Fairchild-CASE_751EG-0-0-0")
