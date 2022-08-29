@@ -794,7 +794,6 @@
     )
   )
 
-
   (junction (at 57.15 166.37) (diameter 0) (color 0 0 0 0)
     (uuid 03a9eb61-53c4-48e6-9dd3-6b637b8f83af)
   )
@@ -2353,7 +2352,7 @@
     (uuid 667fb65e-e7cc-44be-966d-e37fc95476e1)
     (property "Reference" "L2" (id 0) (at 55.88 77.47 90))
     (property "Value" "10uH - 60mA" (id 1) (at 55.88 80.01 90))
-    (property "Footprint" "Inductor_SMD:L_0201_0603Metric" (id 2) (at 55.88 82.55 0)
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (id 2) (at 55.88 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=LLQBA160808T100M&u=M" (id 3) (at 55.88 82.55 0)

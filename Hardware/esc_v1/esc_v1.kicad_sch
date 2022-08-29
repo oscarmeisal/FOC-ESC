@@ -1163,7 +1163,6 @@
     )
   )
 
-
   (junction (at 33.02 132.08) (diameter 0) (color 0 0 0 0)
     (uuid 05257620-f8d9-4a1a-a4b6-7dace59a0967)
   )
@@ -3760,7 +3759,7 @@
       (reference "L1") (unit 1) (value "10uH") (footprint "744025100:Wuerth_Elektronik-744025100-Manufacturer_Recommended")
     )
     (path "/d5927b45-4bd6-4aa1-82fe-893aae000d0e/667fb65e-e7cc-44be-966d-e37fc95476e1"
-      (reference "L2") (unit 1) (value "10uH - 60mA") (footprint "Inductor_SMD:L_0201_0603Metric")
+      (reference "L2") (unit 1) (value "10uH - 60mA") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
     (path "/331d98c5-7dee-4472-b71e-334dc622128d/ac24b2ef-0757-4371-959f-8c8f4db6b280"
       (reference "L3") (unit 1) (value "47uH") (footprint "SRP1265A-470M:SRP1265A")
