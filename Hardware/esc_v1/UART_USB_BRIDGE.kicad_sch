@@ -326,6 +326,7 @@
     )
   )
 
+
   (junction (at 151.13 73.66) (diameter 0) (color 0 0 0 0)
     (uuid 37c7279a-82a9-43b9-b955-b2be13350926)
   )
@@ -731,6 +732,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" (id 3) (at 152.4 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part no" "CP2102N" (id 4) (at 151.13 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 72cb5f8b-bf66-48ad-aa3a-6ca7a3133402))
